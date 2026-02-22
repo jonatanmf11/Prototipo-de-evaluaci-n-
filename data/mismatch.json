@@ -1,0 +1,64 @@
+{
+  "characteristics": [
+    {
+      "name": "adaptability",
+      "projectValue": 90,
+      "weight": 1,
+      "methodologies": {
+        "agile": 95,
+        "traditional": 40,
+        "hybrid": 80
+      }
+    },
+    {
+      "name": "risk_control",
+      "projectValue": 70,
+      "weight": 1,
+      "methodologies": {
+        "agile": 60,
+        "traditional": 85,
+        "hybrid": 75
+      }
+    },
+    {
+      "name": "scalability",
+      "projectValue": 60,
+      "weight": 1,
+      "methodologies": {
+        "agile": 65,
+        "traditional": 80,
+        "hybrid": 75
+      }
+    },
+    {
+      "name": "documentation_rigor",
+      "projectValue": 50,
+      "weight": 1,
+      "methodologies": {
+        "agile": 40,
+        "traditional": 95,
+        "hybrid": 70
+      }
+    },
+    {
+      "name": "customer_collaboration",
+      "projectValue": 85,
+      "weight": 1,
+      "methodologies": {
+        "agile": 95,
+        "traditional": 50,
+        "hybrid": 85
+      }
+    },
+    {
+      "name": "process_control",
+      "projectValue": 75,
+      "weight": 1,
+      "methodologies": {
+        "agile": 60,
+        "traditional": 90,
+        "hybrid": 80
+      }
+    }
+  ]
+}

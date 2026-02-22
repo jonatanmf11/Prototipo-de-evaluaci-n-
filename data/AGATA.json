@@ -1,0 +1,145 @@
+{
+  "id": "PROCESS_AGATA",
+  "projectContext": [
+    "equipos_grandes","equipo_distribuido",
+    "entorno_empresarial",
+    "necesidad_comunicacion_intensa"
+  ],
+  "practices": [
+    {
+      "id": "P_AGATA_SCRUM_XA",
+      "name": "Scrum de Arquitectura (XA)",
+      "type": "agile",
+      "roles": [
+        { "id": "R_PO", "name": "Product Owner" },
+        { "id": "R_AGATA_MASTER", "name": "AGATA Master" },
+        { "id": "R_ARCH_TEAM", "name": "Equipo Scrum (XA)" }
+      ],
+      "activities": [
+        {
+          "id": "A_EXPL",
+          "name": "Exploración de requisitos arquitectónicos",
+          "type": "agile"
+        },
+        {
+          "id": "A_PLAN_ARQ",
+          "name": "Planificación arquitectónica",
+          "type": "agile"
+        },
+        {
+          "id": "A_REV_ARQ",
+          "name": "Revisión de arquitectura",
+          "type": "agile"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "AR_BACKLOG_ARQ",
+          "name": "Backlog Arquitectónico",
+          "category": "Backlog"
+        },
+        {
+          "id": "AR_HIST_ARQ",
+          "name": "Historias Arquitectónicas",
+          "category": "Requisitos"
+        }
+      ],
+      "rules": [
+        "Control empirico",
+        "Transparencia",
+        "Arquitectura como canal de comunicacion"
+      ],
+      "contextRequirements": [
+        "equipos_grandes",
+        "necesidad_comunicacion_intensa"
+      ]
+    },
+    {
+      "id": "P_AGATA_XP",
+      "name": "Extreme Programming (XP)",
+      "type": "agile",
+      "roles": [
+        { "id": "R_DEV_TEAM", "name": "Equipo Scrum (XP)" }
+      ],
+      "activities": [
+        {
+          "id": "A_ITER_PLAN",
+          "name": "Planificación de iteración",
+          "type": "agile"
+        },
+        {
+          "id": "A_DEV",
+          "name": "Construcción incremental con arquitectura",
+          "type": "agile"
+        },
+        {
+          "id": "A_INTEGRACION",
+          "name": "Integración continua",
+          "type": "agile"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "AR_CODE",
+          "name": "Código fuente",
+          "category": "Software"
+        },
+        {
+          "id": "AR_INCREMENT",
+          "name": "Incremento funcional",
+          "category": "Producto"
+        }
+      ],
+      "rules": [
+        "Integracion continua",
+        "Desarrollo incremental",
+        "Retroalimentacion continua"
+      ],
+      "contextRequirements": [
+        "equipo_distribuido"
+      ]
+    },
+    {
+      "id": "P_AGATA_GESTION",
+      "name": "Gestión y Coordinación AGATA",
+      "type": "traditional",
+      "roles": [
+        { "id": "R_SPONSOR", "name": "Sponsor" },
+        { "id": "R_PM", "name": "Responsable de Gestión" }
+      ],
+      "activities": [
+        {
+          "id": "A_PLAN_GLOBAL",
+          "name": "Planificación global del proyecto",
+          "type": "traditional"
+        },
+        {
+          "id": "A_SEGUIMIENTO",
+          "name": "Seguimiento y control",
+          "type": "traditional"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "AR_PLAN_PROY",
+          "name": "Plan de Proyecto",
+          "category": "Documento"
+        },
+        {
+          "id": "AR_METRICAS",
+          "name": "Reporte de métricas",
+          "category": "Control"
+        }
+      ],
+      "rules": [
+        "Aprobacion formal",
+        "Seguimiento periodico"
+      ],
+      "contextRequirements": [
+        "entorno_empresarial"
+      ]
+    }
+
+    
+  ]
+}

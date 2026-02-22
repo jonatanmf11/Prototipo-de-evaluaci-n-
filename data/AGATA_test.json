@@ -1,0 +1,65 @@
+{
+  "id": "HybridProcess_NSR_Test",
+
+  "practices": [
+    {
+      "id": "P_AG_BACKLOG",
+      "name": "Backlog Management",
+      "type": "agile",
+      "roles": [
+        {
+          "id": "R_PRODUCT_OWNER",
+          "name": "Product Owner"
+        }
+      ],
+      "activities": [
+        {
+          "id": "A_PRIORITIZE",
+          "name": "Prioritize backlog",
+          "type": "management"
+        }
+      ],
+      "artifacts": []
+    },
+    {
+      "id": "P_PD_REQUIREMENTS",
+      "name": "Formal Requirements Specification",
+      "type": "traditional",
+      "roles": [
+        {
+          "id": "R_PRODUCT_OWNER",
+          "name": "Product Owner"
+        }
+      ],
+      "activities": [
+        {
+          "id": "A_SPECIFY",
+          "name": "Specify requirements formally",
+          "type": "documentation"
+        }
+      ],
+      "artifacts": []
+    },
+    {
+      "id": "P_AG_DAILY",
+      "name": "Daily Meeting",
+      "type": "agile",
+      "roles": [
+        {
+          "id": "R_SCRUM_MASTER",
+          "name": "Scrum Master"
+        }
+      ],
+      "activities": [
+        {
+          "id": "A_DAILY_SYNC",
+          "name": "Daily synchronization",
+          "type": "coordination"
+        }
+      ],
+      "artifacts": []
+    }
+  ],
+
+  "compatibilityRelations": []
+}

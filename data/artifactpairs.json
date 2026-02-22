@@ -1,0 +1,78 @@
+[
+
+    
+    {
+        "agile": {
+            "id": "AR_BACKLOG",
+            "name": "Product Backlog",
+            "category": "requirements"
+        },
+        "traditional": {
+            "id": "TR_SRS",
+            "name": "Software Requirements Specification (SRS)",
+            "category": "requirements"
+        },
+        "equivalence": 0.75  
+    },
+
+   
+    {
+        "agile": {
+            "id": "AR_ARCH_SKETCH",
+            "name": "Architecture Sketch",
+            "category": "architecture"
+        },
+        "traditional": {
+            "id": "TR_SAD",
+            "name": "Software Architecture Document (SAD)",
+            "category": "architecture"
+        },
+        "equivalence": 0.65 
+    },
+
+   
+    {
+        "agile": {
+            "id": "AR_REFACT_LOG",
+            "name": "Refactoring Log",
+            "category": "architecture"
+        },
+        "traditional": {
+            "id": "TR_CHANGE_LOG",
+            "name": "Architecture Change Log",
+            "category": "architecture"
+        },
+        "equivalence": 0.55 
+    },
+
+    
+    {
+        "agile": {
+            "id": "AR_CODE_STD",
+            "name": "Coding Standards",
+            "category": "code"
+        },
+        "traditional": {
+            "id": "TR_DEV_STD",
+            "name": "Development Standards Manual",
+            "category": "code"
+        },
+        "equivalence": 0.9  
+    },
+
+   
+    {
+        "agile": {
+            "id": "AR_TEST_CASES",
+            "name": "Test Cases",
+            "category": "testing"
+        },
+        "traditional": {
+            "id": "TR_TEST_PLAN",
+            "name": "Formal Test Plan & Test Specification",
+            "category": "testing"
+        },
+        "equivalence": 0.8  
+    }
+
+]

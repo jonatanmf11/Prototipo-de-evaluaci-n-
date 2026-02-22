@@ -1,0 +1,35 @@
+{
+  "activities": [
+    { "id": "A_PRIORITIZE", "documented": true },
+    { "id": "A_SPECIFY", "documented": true },
+    { "id": "A_DAILY_SYNC", "documented": false }
+  ],
+
+  "rules": [
+    { "practiceId": "P_AG_BACKLOG", "documented": true },
+    { "practiceId": "P_PD_REQUIREMENTS", "documented": false }
+  ],
+
+  "roles": [
+    { "id": "R_PRODUCT_OWNER", "documented": true },
+    { "id": "R_SCRUM_MASTER", "documented": true }
+  ],
+
+  "artifacts": [
+    { "id": "AR_BACKLOG_DOC", "documented": true }
+  ],
+
+  "sequence": [
+    { 
+      "practiceA": "P_AG_BACKLOG",
+      "practiceB": "P_PD_REQUIREMENTS",
+      "documented": true
+    }
+  ],
+
+  "metrics": [
+    { "name": "ICS", "documented": true },
+    { "name": "ICF", "documented": true },
+    { "name": "NSR", "documented": false }
+  ]
+}

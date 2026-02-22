@@ -1,0 +1,71 @@
+{
+  "id": "PROCESS_AGATA",
+  "projectContext": [
+    "equipo_distribuido",
+    "entorno_regulado"
+  ],
+  "practices": [
+    {
+      "id": "P1",
+      "name": "Scrum",
+      "type": "agile",
+      "roles": [
+        { "id": "R1", "name": "Product Owner" },
+        { "id": "R2", "name": "Scrum Master" }
+      ],
+      "activities": [
+        {
+          "id": "A1",
+          "name": "Sprint Planning",
+          "type": "agile"
+        },
+        {
+          "id": "A2",
+          "name": "Sprint Review",
+          "type": "agile"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "AR1",
+          "name": "Product Backlog",
+          "category": "Backlog"
+        }
+      ],
+      "rules": [
+        "Iteraciones cortas"
+      ],
+      "contextRequirements": [
+        "equipo_autonomo"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "PMBOK",
+      "type": "traditional",
+      "roles": [
+        { "id": "R3", "name": "Project Manager" }
+      ],
+      "activities": [
+        {
+          "id": "A3",
+          "name": "Planificación",
+          "type": "traditional"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "AR2",
+          "name": "Plan de Proyecto",
+          "category": "Documento"
+        }
+      ],
+      "rules": [
+        "Fases secuenciales"
+      ],
+      "contextRequirements": [
+        "entorno_regulado"
+      ]
+    }
+  ]
+}
