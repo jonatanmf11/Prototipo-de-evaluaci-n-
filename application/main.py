@@ -36,6 +36,10 @@ from application.metrics.sequential.ICS import ICS
 from application.metrics.organizational.NSR import NSR
 from application.metrics.formal.CAF import CAF
 from application.metrics.functional.mismatch import Mismatch
+from application.metrics.formal.CPT import CPT 
+from application.metrics.Global.IGC import IGC 
+
+
 
 def main():
     print("Prueba AGATA ")
@@ -89,6 +93,11 @@ def main():
     metric_engine.register_metric(Mismatch(mismatch_data, "traditional"))
     metric_engine.register_metric(Mismatch(mismatch_data, "hybrid"))
     
+    with open("data/cpt.json", "r", encoding="utf-8") as f:
+        cpt_data = json.load(f)
+    
+    metric_engine.register_metric(CPT(cpt_data))
+    
     results = metric_engine.evaluate(process, violations)
     
     results = metric_engine.evaluate(process, violations)
@@ -101,6 +110,16 @@ def main():
         print(f"{metric_name}: {value:.4f}")
         print(f"{interpretation}\n")
     
+    
+    
+
+    igc_metric = IGC()
+
+    igc_value = igc_metric.calculate(results)
+    igc_interpretation = igc_metric.interpret(igc_value)
+
+    print("IGC: {:.4f}".format(igc_value))
+    print("  →", igc_interpretation)
    
     
 if __name__ == "__main__":

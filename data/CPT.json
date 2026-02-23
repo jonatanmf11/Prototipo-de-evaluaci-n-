@@ -1,0 +1,14 @@
+{
+  "agileWorkProducts": [
+    "Product Backlog",
+    "Sprint Backlog",
+    "Test Cases",
+    "Architecture Sketch"
+  ],
+  "planDrivenWorkProducts": [
+    "SRS",
+    "Test Cases",
+    "Architecture Sketch",
+    "Risk Plan"
+  ]
+}
