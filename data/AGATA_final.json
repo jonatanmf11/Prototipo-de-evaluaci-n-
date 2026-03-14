@@ -1,0 +1,123 @@
+{
+  "id": "AGATA",
+  "name": "AGATA",
+  "version": "1.0",
+  "description": "Modelo híbrido adaptable para gestión de proyectos de software",
+
+  "practices": [
+    {
+      "id": "P01",
+      "name": "Levantamiento de Requisitos",
+      "type": "traditional",
+      "artifacts": [
+        {
+          "id": "AR_REQ_DOC",
+          "name": "Documento de Requisitos",
+          "category": "Documento"
+        },
+        {
+          "id": "AR_REQ_LIST",
+          "name": "Lista de Requisitos",
+          "category": "Backlog"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "name": "Arquitectura Inicial",
+      "type": "agile",
+      "artifacts": [
+        {
+          "id": "AR_ARCH_DOC",
+          "name": "Documento Arquitectónico",
+          "category": "Documento"
+        },
+        {
+          "id": "AR_ARCH_BACKLOG",
+          "name": "Backlog Arquitectónico",
+          "category": "Backlog"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "name": "Planificación del Proyecto",
+      "type": "traditional",
+      "artifacts": [
+        {
+          "id": "AR_PROJECT_PLAN",
+          "name": "Plan del Proyecto",
+          "category": "Plan"
+        },
+        {
+          "id": "AR_SCHEDULE",
+          "name": "Cronograma",
+          "category": "Plan"
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "name": "Gestión de Backlog",
+      "type": "agile",
+      "artifacts": [
+        {
+          "id": "AR_PRODUCT_BACKLOG",
+          "name": "Product Backlog",
+          "category": "Backlog"
+        },
+        {
+          "id": "AR_SPRINT_BACKLOG",
+          "name": "Sprint Backlog",
+          "category": "Backlog"
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "name": "Desarrollo Iterativo",
+      "type": "agile",
+      "artifacts": [
+        {
+          "id": "AR_INCREMENT",
+          "name": "Incremento de Producto",
+          "category": "Entregable"
+        },
+        {
+          "id": "AR_SOURCE_CODE",
+          "name": "Código Fuente",
+          "category": "Producto"
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "name": "Pruebas del Sistema",
+      "type": "traditional",
+      "artifacts": [
+        {
+          "id": "AR_TEST_PLAN",
+          "name": "Plan de Pruebas",
+          "category": "Documento"
+        },
+        {
+          "id": "AR_TEST_REPORT",
+          "name": "Reporte de Pruebas",
+          "category": "Reporte"
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "name": "Revisión y Retrospectiva",
+      "type": "agile",
+      "artifacts": [
+        {
+          "id": "AR_RETRO_REPORT",
+          "name": "Reporte de Retrospectiva",
+          "category": "Reporte"
+        }
+      ]
+    }
+  ]
+}

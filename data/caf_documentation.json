@@ -2,12 +2,12 @@
   "activities": [
     { "id": "A_PRIORITIZE", "documented": true },
     { "id": "A_SPECIFY", "documented": true },
-    { "id": "A_DAILY_SYNC", "documented": false }
+    { "id": "A_DAILY_SYNC", "documented": true }
   ],
 
   "rules": [
     { "practiceId": "P_AG_BACKLOG", "documented": true },
-    { "practiceId": "P_PD_REQUIREMENTS", "documented": false }
+    { "practiceId": "P_PD_REQUIREMENTS", "documented": true }
   ],
 
   "roles": [
@@ -30,6 +30,6 @@
   "metrics": [
     { "name": "ICS", "documented": true },
     { "name": "ICF", "documented": true },
-    { "name": "NSR", "documented": false }
+    { "name": "NSR", "documented": true }
   ]
 }

@@ -16,12 +16,24 @@ class ProcessModelLoader:
 
     @staticmethod
     def load_from_file(path: str) -> HybridProcessModel:
+        """
+        Carga el modelo desde un archivo JSON.
+        """
         with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
+        return ProcessModelLoader.load_from_dict(data)
+
+    @staticmethod
+    def load_from_dict(data: dict) -> HybridProcessModel:
+        """
+        Construye el modelo híbrido a partir de un diccionario.
+        (Usado por API, tests o CLI)
+        """
+
         practices = []
 
-        # 1️⃣ Cargar prácticas
+        #Cargar prácticas
         for p in data.get("practices", []):
 
             roles = [
@@ -33,9 +45,8 @@ class ProcessModelLoader:
                 Activity(
                     id=a["id"],
                     name=a["name"],
-                    type=(a["type"]),
-                    must_precede = a.get("mustPrecede",[])
-                    
+                    type=a["type"],
+                    must_precede=a.get("mustPrecede", [])
                 )
                 for a in p.get("activities", [])
             ]
@@ -63,21 +74,21 @@ class ProcessModelLoader:
 
             practices.append(practice)
 
-        # 2️⃣ Mapa de prácticas (CLAVE)
+        #Crear mapa de prácticas (para relaciones)
         practice_map = {p.id: p for p in practices}
 
-        # 3️⃣ Cargar relaciones de compatibilidad
+        #Cargar relaciones de compatibilidad
         relations = []
         for r in data.get("compatibilityRelations", []):
             relations.append(
                 CompatibilityRelation(
-                    r["type"],                          # ← AHORA SE PASA EL TIPO
+                    r["type"],
                     practice_map[r["practiceA"]],
                     practice_map[r["practiceB"]]
                 )
             )
 
-        # 4️⃣ Construir modelo final
+        #Construir modelo final
         return HybridProcessModel(
             id=data["id"],
             practices=practices,

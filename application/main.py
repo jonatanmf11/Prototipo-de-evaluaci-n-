@@ -45,7 +45,7 @@ def main():
     print("Prueba AGATA ")
 
     # 1. Cargar modelo desde JSON
-    process = ProcessModelLoader.load_from_file("data/AGATA_test.json")
+    process = ProcessModelLoader.load_from_file("data/AGATA_final.json")
 
 
     # 2. Inicializar Rule Engine
