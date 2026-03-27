@@ -259,7 +259,8 @@ def evaluate_full(payload: dict):
 
     igc_metric = IGC()
     igc_value = igc_metric.calculate(results)
-
+    igc_description = igc_metric.interpret(igc_value)
+    
     return {
         "violations_count": len(violations),
         "violations": [
@@ -272,5 +273,6 @@ def evaluate_full(payload: dict):
             for v in violations
         ],
         "metrics": results,
-        "IGC": igc_value
+        "IGC": igc_value, 
+        "interpretado_IGC" : igc_description
     }

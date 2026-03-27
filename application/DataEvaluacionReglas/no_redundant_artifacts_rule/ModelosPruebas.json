@@ -1,0 +1,218 @@
+[
+  {
+    "id": "M02",
+    "name": "Modelo 2",
+    "version": "1.0",
+    "description": "Duplicado",
+    "practices": [
+      {"id": "P01","name": "Req","type": "traditional","artifacts": [{"id": "A1","name": "Doc Req","category": "Documento"}]},
+      {"id": "P02","name": "Analisis","type": "agile","artifacts": [{"id": "A2","name": "Doc Req","category": "Documento"}]},
+      {"id": "P03","name": "Dev","type": "agile","artifacts": [{"id": "A3","name": "Codigo","category": "Producto"}]}
+    ]
+  },
+  {
+    "id": "M01",
+    "name": "Modelo 1",
+    "version": "1.0",
+    "description": "Sin duplicados",
+    "practices": [
+      {"id": "P01","name": "Req","type": "traditional","artifacts": [{"id": "A1","name": "Doc Req","category": "Documento"}]},
+      {"id": "P02","name": "Design","type": "agile","artifacts": [{"id": "A2","name": "Doc Design","category": "Documento"}]},
+      {"id": "P03","name": "Dev","type": "agile","artifacts": [{"id": "A3","name": "Codigo","category": "Producto"}]}
+    ]
+  },
+  {
+    "id": "M04",
+    "name": "Modelo 4",
+    "version": "1.0",
+    "description": "Duplicado multiple",
+    "practices": [
+      {"id": "P01","name": "Req","type": "traditional","artifacts": [{"id": "A1","name": "Lista Req","category": "Backlog"}]},
+      {"id": "P02","name": "Plan","type": "traditional","artifacts": [{"id": "A2","name": "Lista Req","category": "Backlog"}]},
+      {"id": "P03","name": "Dev","type": "agile","artifacts": [{"id": "A3","name": "Codigo","category": "Producto"}]},
+      {"id": "P04","name": "Deploy","type": "agile","artifacts": [{"id": "A4","name": "Lista Req","category": "Backlog"}]}
+    ]
+  },
+  {
+    "id": "M06",
+    "name": "Modelo 6",
+    "version": "1.0",
+    "description": "Duplicado",
+    "practices": [
+      {"id": "P01","name": "Doc1","type": "traditional","artifacts": [{"id": "A1","name": "Documento","category": "Documento"}]},
+      {"id": "P02","name": "Doc2","type": "traditional","artifacts": [{"id": "A2","name": "Documento","category": "Documento"}]},
+      {"id": "P03","name": "Test","type": "traditional","artifacts": [{"id": "A3","name": "Reporte","category": "Reporte"}]}
+    ]
+  },
+  {
+    "id": "M03",
+    "name": "Modelo 3",
+    "version": "1.0",
+    "description": "Sin duplicados",
+    "practices": [
+      {"id": "P01","name": "Dev","type": "agile","artifacts": [{"id": "A1","name": "Codigo Fuente","category": "Producto"}]}
+    ]
+  },
+  {
+    "id": "M05",
+    "name": "Modelo 5",
+    "version": "1.0",
+    "description": "Sin duplicados",
+    "practices": [
+      {"id": "P01","name": "UX","type": "agile","artifacts": [{"id": "A1","name": "Wireframe","category": "Diseno"}]},
+      {"id": "P02","name": "UI","type": "agile","artifacts": [{"id": "A2","name": "Mockup","category": "Diseno"}]}
+    ]
+  },
+  {
+    "id": "M08",
+    "name": "Modelo 8",
+    "version": "1.0",
+    "description": "Duplicado",
+    "practices": [
+      {"id": "P01","name": "Testing","type": "traditional","artifacts": [{"id": "A1","name": "Plan Test","category": "Documento"}]},
+      {"id": "P02","name": "QA","type": "agile","artifacts": [{"id": "A2","name": "Plan Test","category": "Documento"}]},
+      {"id": "P03","name": "Dev","type": "agile","artifacts": [{"id": "A3","name": "Codigo","category": "Producto"}]},
+      {"id": "P04","name": "Deploy","type": "agile","artifacts": [{"id": "A4","name": "Script","category": "Script"}]}
+    ]
+  },
+  {
+    "id": "M07",
+    "name": "Modelo 7",
+    "version": "1.0",
+    "description": "Sin duplicados",
+    "practices": [
+      {"id": "P01","name": "A","type": "agile","artifacts": [{"id": "A1","name": "A1","category": "Gen"}]},
+      {"id": "P02","name": "B","type": "agile","artifacts": [{"id": "A2","name": "A2","category": "Gen"}]},
+      {"id": "P03","name": "C","type": "traditional","artifacts": [{"id": "A3","name": "A3","category": "Gen"}]},
+      {"id": "P04","name": "D","type": "traditional","artifacts": [{"id": "A4","name": "A4","category": "Gen"}]}
+    ]
+  },
+  {
+    "id": "M09",
+    "name": "Modelo 9",
+    "version": "1.0",
+    "description": "Duplicado",
+    "practices": [
+      {"id": "P01","name": "Deploy1","type": "agile","artifacts": [{"id": "A1","name": "Script","category": "Script"}]},
+      {"id": "P02","name": "Deploy2","type": "agile","artifacts": [{"id": "A2","name": "Script","category": "Script"}]},
+      {"id": "P03","name": "Ops","type": "traditional","artifacts": [{"id": "A3","name": "Log","category": "Log"}]}
+    ]
+  },
+  {
+    "id": "M10",
+    "name": "Modelo 10",
+    "version": "1.0",
+    "description": "Sin duplicados",
+    "practices": [
+      {"id": "P01","name": "Plan","type": "traditional","artifacts": [{"id": "A1","name": "Plan","category": "Plan"}]},
+      {"id": "P02","name": "Dev","type": "agile","artifacts": [{"id": "A2","name": "Code","category": "Producto"}]},
+      {"id": "P03","name": "Test","type": "traditional","artifacts": [{"id": "A3","name": "Test","category": "Test"}]}
+    ]
+  },
+  {
+    "id": "M11",
+    "name": "Modelo 11",
+    "version": "1.0",
+    "description": "Duplicado triple",
+    "practices": [
+      {"id": "P01","name": "A","type": "agile","artifacts": [{"id": "A1","name": "Alpha","category": "Gen"}]},
+      {"id": "P02","name": "B","type": "agile","artifacts": [{"id": "A2","name": "Alpha","category": "Gen"}]},
+      {"id": "P03","name": "C","type": "traditional","artifacts": [{"id": "A3","name": "Alpha","category": "Gen"}]}
+    ]
+  },
+  {
+    "id": "M12",
+    "name": "Modelo 12",
+    "version": "1.0",
+    "description": "Sin duplicados",
+    "practices": [
+      {"id": "P01","name": "Design","type": "agile","artifacts": [{"id": "A1","name": "Design Doc","category": "Documento"}]},
+      {"id": "P02","name": "Impl","type": "traditional","artifacts": [{"id": "A2","name": "Implementation Doc","category": "Documento"}]}
+    ]
+  },
+  {
+    "id": "M14",
+    "name": "Modelo 14",
+    "version": "1.0",
+    "description": "Sin duplicados",
+    "practices": [
+      {"id": "P01","name": "X","type": "traditional","artifacts": [{"id": "A1","name": "Doc X","category": "Documento"}]},
+      {"id": "P02","name": "Y","type": "traditional","artifacts": [{"id": "A2","name": "Doc Y","category": "Documento"}]}
+    ]
+  },
+  {
+    "id": "M13",
+    "name": "Modelo 13",
+    "version": "1.0",
+    "description": "Duplicado",
+    "practices": [
+      {"id": "P01","name": "Deploy1","type": "agile","artifacts": [{"id": "A1","name": "Deploy Script","category": "Script"}]},
+      {"id": "P02","name": "Deploy2","type": "agile","artifacts": [{"id": "A2","name": "Deploy Script","category": "Script"}]},
+      {"id": "P03","name": "Monitor","type": "traditional","artifacts": [{"id": "A3","name": "Logs","category": "Log"}]}
+    ]
+  },
+  {
+    "id": "M15",
+    "name": "Modelo 15",
+    "version": "1.0",
+    "description": "Duplicado parcial",
+    "practices": [
+      {"id": "P01","name": "Spec","type": "traditional","artifacts": [{"id": "A1","name": "Spec","category": "Documento"}]},
+      {"id": "P02","name": "Spec2","type": "traditional","artifacts": [{"id": "A2","name": "Spec","category": "Documento"}]},
+      {"id": "P03","name": "Test","type": "agile","artifacts": [{"id": "A3","name": "Test Cases","category": "Test"}]},
+      {"id": "P04","name": "QA","type": "traditional","artifacts": [{"id": "A4","name": "Reporte","category": "Reporte"}]}
+    ]
+  },
+  {
+    "id": "M16",
+    "name": "Modelo 16",
+    "version": "1.0",
+    "description": "Sin duplicados",
+    "practices": [
+      {"id": "P01","name": "Build","type": "agile","artifacts": [{"id": "A1","name": "Build Artifact","category": "Build"}]}
+    ]
+  },
+  {
+    "id": "M18",
+    "name": "Modelo 18",
+    "version": "1.0",
+    "description": "Sin duplicados",
+    "practices": [
+      {"id": "P01","name": "Flow","type": "agile","artifacts": [{"id": "A1","name": "Flow Diagram","category": "Diagrama"}]},
+      {"id": "P02","name": "Data","type": "traditional","artifacts": [{"id": "A2","name": "Data Model","category": "Modelo"}]}
+    ]
+  },
+  {
+    "id": "M17",
+    "name": "Modelo 17",
+    "version": "1.0",
+    "description": "Duplicado",
+    "practices": [
+      {"id": "P01","name": "Doc1","type": "traditional","artifacts": [{"id": "A1","name": "Doc","category": "Documento"}]},
+      {"id": "P02","name": "Doc2","type": "traditional","artifacts": [{"id": "A2","name": "Doc","category": "Documento"}]},
+      {"id": "P03","name": "Extra","type": "agile","artifacts": [{"id": "A3","name": "Code","category": "Producto"}]}
+    ]
+  },
+  {
+    "id": "M20",
+    "name": "Modelo 20",
+    "version": "1.0",
+    "description": "Sin duplicados",
+    "practices": [
+      {"id": "P01","name": "Final","type": "traditional","artifacts": [{"id": "A1","name": "Entrega Final","category": "Entregable"}]},
+      {"id": "P02","name": "Review","type": "agile","artifacts": [{"id": "A2","name": "Reporte","category": "Reporte"}]}
+    ]
+  },
+  {
+    "id": "M19",
+    "name": "Modelo 19",
+    "version": "1.0",
+    "description": "Duplicado masivo",
+    "practices": [
+      {"id": "P01","name": "A","type": "agile","artifacts": [{"id": "A1","name": "Diagram","category": "Diagrama"}]},
+      {"id": "P02","name": "B","type": "agile","artifacts": [{"id": "A2","name": "Diagram","category": "Diagrama"}]},
+      {"id": "P03","name": "C","type": "traditional","artifacts": [{"id": "A3","name": "Diagram","category": "Diagrama"}]},
+      {"id": "P04","name": "D","type": "traditional","artifacts": [{"id": "A4","name": "Report","category": "Reporte"}]}
+    ]
+  }
+]
