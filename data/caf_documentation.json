@@ -1,35 +1,204 @@
 {
   "activities": [
-    { "id": "A_PRIORITIZE", "documented": true },
-    { "id": "A_SPECIFY", "documented": true },
-    { "id": "A_DAILY_SYNC", "documented": true }
-  ],
-
-  "rules": [
-    { "practiceId": "P_AG_BACKLOG", "documented": true },
-    { "practiceId": "P_PD_REQUIREMENTS", "documented": true }
-  ],
-
-  "roles": [
-    { "id": "R_PRODUCT_OWNER", "documented": true },
-    { "id": "R_SCRUM_MASTER", "documented": true }
-  ],
-
-  "artifacts": [
-    { "id": "AR_BACKLOG_DOC", "documented": true }
-  ],
-
-  "sequence": [
-    { 
-      "practiceA": "P_AG_BACKLOG",
-      "practiceB": "P_PD_REQUIREMENTS",
+    {
+      "id": "A_REU_REQ",
+      "documented": true
+    },
+    {
+      "id": "A_ID_ATTR_CAL",
+      "documented": true
+    },
+    {
+      "id": "A_DEF_HU",
+      "documented": true
+    },
+    {
+      "id": "A_ATTR_DD",
+      "documented": true
+    },
+    {
+      "id": "A_QA_ATT_WKS",
+      "documented": true
+    },
+    {
+      "id": "A_ID_TAC_ARQ",
+      "documented": true
+    },
+    {
+      "id": "A_DIB_PERF_ARQ",
+      "documented": true
+    },
+    {
+      "id": "A_EV_ARQ_DLLO",
+      "documented": true
+    },
+    {
+      "id": "A_SPR_PLAN_MEET",
+      "documented": true
+    },
+    {
+      "id": "A_PRD_BACK_ORG",
+      "documented": true
+    },
+    {
+      "id": "A_IT_PLANNING",
+      "documented": true
+    },
+    {
+      "id": "A_EFF_ESTIMATION",
+      "documented": true
+    },
+    {
+      "id": "A_PRJ_VELOCITY_CALC",
+      "documented": true
+    },
+    {
+      "id": "A_DELIVERY_PLAN_DEF",
+      "documented": true
+    },
+    {
+      "id": "A_DAILY_SPR_MEET",
+      "documented": true
+    },
+    {
+      "id": "A_SPR_REVIEW",
+      "documented": true
+    },
+    {
+      "id": "A_SPR_RETROSPECTIVE",
+      "documented": true
+    },
+    {
+      "id": "A_INTEG_CONTINUA",
+      "documented": true
+    },
+    {
+      "id": "A_INCRE_VALIDATION",
+      "documented": true
+    },
+    {
+      "id": "A_TEST_DRIVEN_DEV",
+      "documented": true
+    },
+    {
+      "id": "A_REFACTORING",
+      "documented": true
+    },
+    {
+      "id": "A_SIMPLE_DESIGN",
+      "documented": true
+    },
+    {
+      "id": "A_SYST_MET_APP",
+      "documented": true
+    },
+    {
+      "id": "A_COLLECTIVE_CODE_OWN",
+      "documented": true
+    },
+    {
+      "id": "A_CODE_CONVENTIONS",
       "documented": true
     }
   ],
-
-  "metrics": [
-    { "name": "ICS", "documented": true },
-    { "name": "ICF", "documented": true },
-    { "name": "NSR", "documented": true }
-  ]
+  "rules": [],
+  "roles": [
+    {
+      "id": "R_SRCUM_XP",
+      "documented": true
+    },
+    {
+      "id": "R_SCRUM_XA",
+      "documented": true
+    },
+    {
+      "id": "R_PO",
+      "documented": true
+    },
+    {
+      "id": "R_AGATA_MASTER",
+      "documented": true
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "AR_REQ_DOC",
+      "documented": true
+    },
+    {
+      "id": "USER_STORIES",
+      "documented": true
+    },
+    {
+      "id": "QUALITY_ATTR",
+      "documented": true
+    },
+    {
+      "id": "AR_ARCH_HISTORY",
+      "documented": true
+    },
+    {
+      "id": "AR_ARCH_DRAFT",
+      "documented": true
+    },
+    {
+      "id": "PRODUCT_BACKLOG",
+      "documented": true
+    },
+    {
+      "id": "SPRINT_BACKLOG",
+      "documented": true
+    },
+    {
+      "id": "AR_Plan_Delivery",
+      "documented": true
+    },
+    {
+      "id": "PRODUCT_INCREMENT",
+      "documented": true
+    },
+    {
+      "id": "RETRO_ACTIONS",
+      "documented": true
+    },
+    {
+      "id": "SOURCE_CODE",
+      "documented": true
+    },
+    {
+      "id": "UNIT_TESTS",
+      "documented": true
+    },
+    {
+      "id": "ACCEPTANCE_TESTS",
+      "documented": true
+    },
+    {
+      "id": "ARCH_REFACTOR_LOG",
+      "documented": true
+    }
+  ],
+  "sequence": [
+    {
+      "practiceA": "P01",
+      "practiceB": "P02",
+      "documented": true
+    },
+    {
+      "practiceA": "P02",
+      "practiceB": "P03",
+      "documented": true
+    },
+    {
+      "practiceA": "P03",
+      "practiceB": "P04",
+      "documented": true
+    },
+    {
+      "practiceA": "P04",
+      "practiceB": "P05",
+      "documented": true
+    }
+  ],
+  "metrics": []
 }
