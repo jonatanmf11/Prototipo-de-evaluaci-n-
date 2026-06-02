@@ -63,7 +63,7 @@ class ProcessModelLoader:
             practice = Practice(
                 id=p["id"],
                 name=p["name"],
-                type=EnumType(p["type"]),
+                type=EnumType(p["type"].lower()),
                 roles=roles,
                 activities=activities,
                 artifacts=artifacts,
