@@ -46,7 +46,7 @@ app.add_middleware(
 @app.get("/model/base")
 def get_base_model():
 
-    with open("data/AGATA.json", "r", encoding="utf-8") as f:
+    with open("data/AGATA_final.json", "r", encoding="utf-8") as f:
         model = json.load(f)
 
     return model

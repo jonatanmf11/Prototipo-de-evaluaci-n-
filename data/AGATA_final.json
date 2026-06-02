@@ -1,121 +1,322 @@
 {
   "id": "AGATA",
-  "name": "AGATA",
-  "version": "1.0",
-  "description": "Modelo híbrido adaptable para gestión de proyectos de software",
-
+  "name": "AGATA - Architecture in Action",
+  "version": "1.1",
+  "description": "Hybrid process that scales XP and Scrum through evolutionary architecture, integrating agile management, technical discipline, and architectural governance.",
   "practices": [
     {
       "id": "P01",
-      "name": "Levantamiento de Requisitos",
-      "type": "traditional",
+      "name": "Exploration Phase",
+      "type": "agile",
+      "roles": [
+        {
+          "id": "R_SCRUM_XA",
+          "name": "Scrum XA Team"
+        },
+        {
+          "id": "R_PO",
+          "name": "Product Owner"
+        },
+        {
+          "id": "R_AGATA_MASTER",
+          "name": "AGATA Master"
+        }
+      ],
+      "activities": [
+        {
+          "id": "A_REU_REQ",
+          "name": "Reunión requerimientos iniciales",
+          "type": "traditional"
+        },
+        {
+          "id": "A_ID_ATTR_CAL",
+          "name": "Identificación atributos de calidad",
+          "type": "agile"
+        },
+        {
+          "id": "A_DEF_HU",
+          "name": "Definición historias de usuarios iniciales",
+          "type": "traditional"
+        }
+      ],
       "artifacts": [
         {
           "id": "AR_REQ_DOC",
-          "name": "Documento de Requisitos",
-          "category": "Documento"
+          "name": "Initial Requirements Document",
+          "category": "Document"
         },
         {
-          "id": "AR_REQ_LIST",
-          "name": "Lista de Requisitos",
-          "category": "Backlog"
+          "id": "USER_STORIES",
+          "name": "Historias de usuarios",
+          "category": "Document"
+        },
+        {
+          "id": "QUALITY_ATTR",
+          "name": "Quality Attributes List",
+          "category": "Document"
         }
       ]
     },
     {
       "id": "P02",
-      "name": "Arquitectura Inicial",
+      "name": "Agile Architecture (XA)",
       "type": "agile",
-      "artifacts": [
+      "roles": [
         {
-          "id": "AR_ARCH_DOC",
-          "name": "Documento Arquitectónico",
-          "category": "Documento"
+          "id": "R_SCRUM_XA",
+          "name": "Scrum XA Team"
         },
         {
-          "id": "AR_ARCH_BACKLOG",
-          "name": "Backlog Arquitectónico",
-          "category": "Backlog"
+          "id": "R_PO",
+          "name": "Product Owner"
+        }
+      ],
+      "activities": [
+        {
+          "id": "A_ATTR_DD",
+          "name": "Attribute-Driven Design (ADD)",
+          "type": "traditional"
+        },
+        {
+          "id": "A_QA_ATT_WKS",
+          "name": "Quality Attribute Workshops (QAW)",
+          "type": "traditional"
+        },
+        {
+          "id": "A_ID_TAC_ARQ",
+          "name": "Identificación de tácticas arquitectónicas",
+          "type": "traditional"
+        },
+        {
+          "id": "A_DIB_PERF_ARQ",
+          "name": "Dibujo y perfeccionamiento arquitectónico",
+          "type": "traditional"
+        },
+        {
+          "id": "A_EV_ARQ_DLLO",
+          "name": "La evolución de la arquitectura a la par del desarrollo.",
+          "type": "traditional"
+        }
+      ],
+      "is_formalized": true,
+      "artifacts": [
+        {
+          "id": "AR_ARCH_HISTORY",
+          "name": "Architecture History",
+          "category": "Document"
+        },
+        {
+          "id": "AR_ARCH_DRAFT",
+          "name": "Architecture Draft",
+          "category": "Document"
         }
       ]
     },
     {
       "id": "P03",
-      "name": "Planificación del Proyecto",
-      "type": "traditional",
-      "artifacts": [
+      "name": "Project Planning and Backlog Management",
+      "type": "agile",
+      "roles": [
         {
-          "id": "AR_PROJECT_PLAN",
-          "name": "Plan del Proyecto",
-          "category": "Plan"
+          "id": "R_SCRUM_XA",
+          "name": "Scrum XA Team"
         },
         {
-          "id": "AR_SCHEDULE",
-          "name": "Cronograma",
-          "category": "Plan"
+          "id": "R_SRCUM_XP",
+          "name": "Scrum XP Team"
+        },
+        {
+          "id": "R_PO",
+          "name": "Product Owner"
+        },
+        {
+          "id": "R_AGATA_MASTER",
+          "name": "AGATA Master"
+        }
+      ],
+      "activities": [
+        {
+          "id": "A_SPR_PLAN_MEET",
+          "name": "Sprint planning meeting",
+          "type": "agile"
+        },
+        {
+          "id": "A_PRD_BACK_ORG",
+          "name": "Product backlog organization",
+          "type": "agile"
+        },
+        {
+          "id": "A_IT_PLANNING",
+          "name": "Iteration planning",
+          "type": "agile"
+        },
+        {
+          "id": "A_EFF_ESTIMATION",
+          "name": "Effort estimation",
+          "type": "agile"
+        },
+        {
+          "id": "A_PRJ_VELOCITY_CALC",
+          "name": "Project velocity calculation",
+          "type": "agile"
+        },
+        {
+          "id": "A_DELIVERY_PLAN_DEF",
+          "name": "Delivery plan definition",
+          "type": "agile"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "PRODUCT_BACKLOG",
+          "name": "Product Backlog",
+          "category": "Document"
+        },
+        {
+          "id": "SPRINT_BACKLOG",
+          "name": "Sprint Backlog",
+          "category": "Document"
+        },
+        {
+          "id": "AR_Plan_Delivery",
+          "name": "Plan de entrega",
+          "category": "Document"
         }
       ]
     },
     {
       "id": "P04",
-      "name": "Gestión de Backlog",
+      "name": "Iterative Sprint Execution",
       "type": "agile",
-      "artifacts": [
+      "roles": [
         {
-          "id": "AR_PRODUCT_BACKLOG",
-          "name": "Product Backlog",
-          "category": "Backlog"
+          "id": "R_SRCUM_XP",
+          "name": "Scrum XP Team"
         },
         {
-          "id": "AR_SPRINT_BACKLOG",
-          "name": "Sprint Backlog",
-          "category": "Backlog"
+          "id": "R_SCRUM_XA",
+          "name": "Scrum XA Team"
+        },
+        {
+          "id": "R_PO",
+          "name": "Product Owner"
+        },
+        {
+          "id": "R_AGATA_MASTER",
+          "name": "AGATA Master"
+        }
+      ],
+      "activities": [
+        {
+          "id": "A_DAILY_SPR_MEET",
+          "name": "Daily sprint meeting (stand-up)",
+          "type": "agile"
+        },
+        {
+          "id": "A_SPR_REVIEW",
+          "name": "Sprint review",
+          "type": "agile"
+        },
+        {
+          "id": "A_SPR_RETROSPECTIVE",
+          "name": "Sprint retrospective",
+          "type": "agile"
+        },
+        {
+          "id": "A_INTEG_CONTINUA",
+          "name": "Integración continua",
+          "type": "agile"
+        },
+        {
+          "id": "A_INCRE_VALIDATION",
+          "name": "Increment validation with client",
+          "type": "agile"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "PRODUCT_INCREMENT",
+          "name": "Product Increment",
+          "category": "Product"
+        },
+        {
+          "id": "RETRO_ACTIONS",
+          "name": "Retrospective Improvement Actions",
+          "category": "Document"
         }
       ]
     },
     {
       "id": "P05",
-      "name": "Desarrollo Iterativo",
-      "type": "agile",
-      "artifacts": [
+      "name": "Architecture-Based Construction (XP)",
+      "type": "Agile",
+      "roles": [
         {
-          "id": "AR_INCREMENT",
-          "name": "Incremento de Producto",
-          "category": "Entregable"
+          "id": "R_SRCUM_XP",
+          "name": "Scrum XP Team"
         },
         {
-          "id": "AR_SOURCE_CODE",
-          "name": "Código Fuente",
-          "category": "Producto"
+          "id": "R_SCRUM_XA",
+          "name": "Scrum XA Team"
         }
-      ]
-    },
-    {
-      "id": "P06",
-      "name": "Pruebas del Sistema",
-      "type": "traditional",
-      "artifacts": [
+      ],
+      "activities": [
         {
-          "id": "AR_TEST_PLAN",
-          "name": "Plan de Pruebas",
-          "category": "Documento"
+          "id": "A_TEST_DRIVEN_DEV",
+          "name": "Test Driven Development (TDD)",
+          "type": "agile"
         },
         {
-          "id": "AR_TEST_REPORT",
-          "name": "Reporte de Pruebas",
-          "category": "Reporte"
+          "id": "A_REFACTORING",
+          "name": "Refactoring",
+          "type": "agile"
+        },
+        {
+          "id": "A_SIMPLE_DESIGN",
+          "name": "Simple design",
+          "type": "agile"
+        },
+        {
+          "id": "A_SYST_MET_APP",
+          "name": "System metaphor application",
+          "type": "agile"
+        },
+        {
+          "id": "A_COLLECTIVE_CODE_OWN",
+          "name": "Collective code ownership",
+          "type": "agile"
+        },
+        {
+          "id": "A_CODE_CONVENTIONS",
+          "name": "Code conventions",
+          "type": "agile"
         }
-      ]
-    },
-    {
-      "id": "P07",
-      "name": "Revisión y Retrospectiva",
-      "type": "agile",
+      ],
       "artifacts": [
         {
-          "id": "AR_RETRO_REPORT",
-          "name": "Reporte de Retrospectiva",
-          "category": "Reporte"
+          "id": "USER_STORIES",
+          "name": "User Stories",
+          "category": "Document"
+        },
+        {
+          "id": "SOURCE_CODE",
+          "name": "Source Code",
+          "category": "Product"
+        },
+        {
+          "id": "UNIT_TESTS",
+          "name": "Unit Tests",
+          "category": "testing"
+        },
+        {
+          "id": "ACCEPTANCE_TESTS",
+          "name": "Acceptance Tests",
+          "category": "testing"
+        },
+        {
+          "id": "ARCH_REFACTOR_LOG",
+          "name": "Architectural Refactoring Log",
+          "category": "Document"
         }
       ]
     }
