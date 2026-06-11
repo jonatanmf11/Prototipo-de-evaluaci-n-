@@ -1,0 +1,461 @@
+[
+  {
+    "id": "M01",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "activities": [
+          {"id":"A1","name":"A1","type":"agile","mustPrecede":["A2"]}
+        ]
+      },
+      {
+        "id": "P02",
+        "type": "agile",
+        "activities": [
+          {"id":"A2","name":"A2","type":"agile","mustPrecede":[]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  },
+
+  {
+    "id": "M02",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "activities": [
+          {"id":"A1","name":"A1","type":"agile","mustPrecede":["A2"]}
+        ]
+      },
+      {
+        "id": "P02",
+        "type": "agile",
+        "activities": [
+          {"id":"A2","name":"A2","type":"agile","mustPrecede":["A1"]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  },
+
+  {
+    "id": "M03",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "activities": [
+          {"id":"A1","name":"Req","type":"traditional","mustPrecede":[]}
+        ]
+      },
+      {
+        "id": "P02",
+        "type": "traditional",
+        "activities": [
+          {"id":"A2","name":"Design","type":"traditional","mustPrecede":[]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  },
+
+  {
+    "id": "M04",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "activities": [
+          {"id":"A1","name":"Req","type":"traditional","mustPrecede":["A2"]}
+        ]
+      },
+      {
+        "id": "P02",
+        "type": "traditional",
+        "activities": [
+          {"id":"A2","name":"Design","type":"traditional","mustPrecede":["A1"]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  },
+
+  {
+    "id": "M05",
+    "practices": [
+      {
+        "id":"P01",
+        "type":"agile",
+        "activities":[
+          {"id":"A1","name":"A1","type":"agile","mustPrecede":["A2"]}
+        ]
+      },
+      {
+        "id":"P02",
+        "type":"agile",
+        "activities":[
+          {"id":"A2","name":"A2","type":"agile","mustPrecede":[]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  },
+
+  {
+    "id":"M06",
+    "practices":[
+      {
+        "id":"P01",
+        "type":"agile",
+        "activities":[
+          {"id":"A1","name":"A1","type":"agile","mustPrecede":["A2"]}
+        ]
+      },
+      {
+        "id":"P02",
+        "type":"agile",
+        "activities":[
+          {"id":"A2","name":"A2","type":"agile","mustPrecede":["A1"]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  },
+
+  {
+    "id":"M07",
+    "practices":[
+      {
+        "id":"P01",
+        "type":"traditional",
+        "activities":[
+          {"id":"A1","name":"A1","type":"traditional","mustPrecede":[]}
+        ]
+      },
+      {
+        "id":"P02",
+        "type":"traditional",
+        "activities":[
+          {"id":"A2","name":"A2","type":"traditional","mustPrecede":[]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  },
+
+  {
+    "id":"M08",
+    "practices":[
+      {
+        "id":"P01",
+        "type":"traditional",
+        "activities":[
+          {"id":"A1","name":"A1","type":"traditional","mustPrecede":["A2"]}
+        ]
+      },
+      {
+        "id":"P02",
+        "type":"traditional",
+        "activities":[
+          {"id":"A2","name":"A2","type":"traditional","mustPrecede":["A1"]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  },
+
+  {
+    "id":"M09",
+    "practices":[
+      {
+        "id":"P01",
+        "type":"agile",
+        "activities":[
+          {"id":"A1","name":"A1","type":"agile","mustPrecede":[]}
+        ]
+      },
+      {
+        "id":"P02",
+        "type":"agile",
+        "activities":[
+          {"id":"A2","name":"A2","type":"agile","mustPrecede":[]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  },
+
+  {
+    "id":"M10",
+    "practices":[
+      {
+        "id":"P01",
+        "type":"agile",
+        "activities":[
+          {"id":"A1","name":"A1","type":"agile","mustPrecede":["A2"]}
+        ]
+      },
+      {
+        "id":"P02",
+        "type":"agile",
+        "activities":[
+          {"id":"A2","name":"A2","type":"agile","mustPrecede":["A1"]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  },
+
+  {
+    "id":"M11",
+    "practices":[
+      {
+        "id":"P01",
+        "type":"agile",
+        "activities":[
+          {"id":"A1","name":"A1","type":"agile","mustPrecede":[]}
+        ]
+      },
+      {
+        "id":"P02",
+        "type":"agile",
+        "activities":[
+          {"id":"A2","name":"A2","type":"agile","mustPrecede":[]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  },
+
+  {
+    "id":"M12",
+    "practices":[
+      {
+        "id":"P01",
+        "type":"agile",
+        "activities":[
+          {"id":"A1","name":"A1","type":"agile","mustPrecede":["A2"]}
+        ]
+      },
+      {
+        "id":"P02",
+        "type":"agile",
+        "activities":[
+          {"id":"A2","name":"A2","type":"agile","mustPrecede":["A1"]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  },
+
+  {
+    "id":"M13",
+    "practices":[
+      {
+        "id":"P01",
+        "type":"traditional",
+        "activities":[
+          {"id":"A1","name":"A1","type":"traditional","mustPrecede":[]}
+        ]
+      },
+      {
+        "id":"P02",
+        "type":"traditional",
+        "activities":[
+          {"id":"A2","name":"A2","type":"traditional","mustPrecede":[]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  },
+
+  {
+    "id":"M14",
+    "practices":[
+      {
+        "id":"P01",
+        "type":"traditional",
+        "activities":[
+          {"id":"A1","name":"A1","type":"traditional","mustPrecede":["A2"]}
+        ]
+      },
+      {
+        "id":"P02",
+        "type":"traditional",
+        "activities":[
+          {"id":"A2","name":"A2","type":"traditional","mustPrecede":["A1"]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  },
+
+  {
+    "id":"M15",
+    "practices":[
+      {
+        "id":"P01",
+        "type":"agile",
+        "activities":[
+          {"id":"A1","name":"A1","type":"agile","mustPrecede":[]}
+        ]
+      },
+      {
+        "id":"P02",
+        "type":"agile",
+        "activities":[
+          {"id":"A2","name":"A2","type":"agile","mustPrecede":[]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  },
+
+  {
+    "id":"M16",
+    "practices":[
+      {
+        "id":"P01",
+        "type":"agile",
+        "activities":[
+          {"id":"A1","name":"A1","type":"agile","mustPrecede":["A2"]}
+        ]
+      },
+      {
+        "id":"P02",
+        "type":"agile",
+        "activities":[
+          {"id":"A2","name":"A2","type":"agile","mustPrecede":["A1"]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  },
+
+  {
+    "id":"M17",
+    "practices":[
+      {
+        "id":"P01",
+        "type":"traditional",
+        "activities":[
+          {"id":"A1","name":"A1","type":"traditional","mustPrecede":[]}
+        ]
+      },
+      {
+        "id":"P02",
+        "type":"traditional",
+        "activities":[
+          {"id":"A2","name":"A2","type":"traditional","mustPrecede":[]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  },
+
+  {
+    "id":"M18",
+    "practices":[
+      {
+        "id":"P01",
+        "type":"traditional",
+        "activities":[
+          {"id":"A1","name":"A1","type":"traditional","mustPrecede":["A2"]}
+        ]
+      },
+      {
+        "id":"P02",
+        "type":"traditional",
+        "activities":[
+          {"id":"A2","name":"A2","type":"traditional","mustPrecede":["A1"]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  },
+
+  {
+    "id":"M19",
+    "practices":[
+      {
+        "id":"P01",
+        "type":"agile",
+        "activities":[
+          {"id":"A1","name":"A1","type":"agile","mustPrecede":[]}
+        ]
+      },
+      {
+        "id":"P02",
+        "type":"agile",
+        "activities":[
+          {"id":"A2","name":"A2","type":"agile","mustPrecede":[]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  },
+
+  {
+    "id":"M20",
+    "practices":[
+      {
+        "id":"P01",
+        "type":"agile",
+        "activities":[
+          {"id":"A1","name":"A1","type":"agile","mustPrecede":["A2"]}
+        ]
+      },
+      {
+        "id":"P02",
+        "type":"agile",
+        "activities":[
+          {"id":"A2","name":"A2","type":"agile","mustPrecede":["A1"]}
+        ]
+      }
+    ],
+    "compatibilityRelations":[
+      {"type":"Sequential","practiceA":"P01","practiceB":"P02"}
+    ]
+  }
+]

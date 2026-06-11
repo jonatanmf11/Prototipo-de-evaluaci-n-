@@ -1,0 +1,262 @@
+[
+  {
+    "id": "M01",
+    "name": "Cumple 1",
+    "projectContext": ["distributed_team", "large_project"],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "contextRequirements": ["distributed_team"]
+      }
+    ]
+  },
+  {
+    "id": "M02",
+    "name": "Viola 1",
+    "projectContext": ["large_project"],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "contextRequirements": ["distributed_team"]
+      }
+    ]
+  },
+  {
+    "id": "M03",
+    "name": "Cumple 2",
+    "projectContext": ["regulated_environment"],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "contextRequirements": ["regulated_environment"]
+      }
+    ]
+  },
+  {
+    "id": "M04",
+    "name": "Viola 2",
+    "projectContext": ["distributed_team"],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "contextRequirements": ["regulated_environment"]
+      }
+    ]
+  },
+  {
+    "id": "M05",
+    "name": "Cumple 3",
+    "projectContext": ["large_project", "high_risk"],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "contextRequirements": ["large_project"]
+      }
+    ]
+  },
+  {
+    "id": "M06",
+    "name": "Viola 3",
+    "projectContext": ["large_project"],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "contextRequirements": ["large_project", "high_risk"]
+      }
+    ]
+  },
+  {
+    "id": "M07",
+    "name": "Cumple 4",
+    "projectContext": ["legacy_system"],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "contextRequirements": []
+      }
+    ]
+  },
+  {
+    "id": "M08",
+    "name": "Viola 4",
+    "projectContext": [],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "contextRequirements": ["legacy_system"]
+      }
+    ]
+  },
+  {
+    "id": "M09",
+    "name": "Cumple 5",
+    "projectContext": ["distributed_team", "high_risk"],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "contextRequirements": ["distributed_team"]
+      },
+      {
+        "id": "P02",
+        "type": "agile",
+        "contextRequirements": ["high_risk"]
+      }
+    ]
+  },
+  {
+    "id": "M10",
+    "name": "Viola 5",
+    "projectContext": ["distributed_team"],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "contextRequirements": ["distributed_team"]
+      },
+      {
+        "id": "P02",
+        "type": "agile",
+        "contextRequirements": ["high_risk"]
+      }
+    ]
+  },
+  {
+    "id": "M11",
+    "name": "Cumple 6",
+    "projectContext": ["government", "high_security"],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "contextRequirements": ["government"]
+      }
+    ]
+  },
+  {
+    "id": "M12",
+    "name": "Viola 6",
+    "projectContext": ["government"],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "contextRequirements": ["government", "high_security"]
+      }
+    ]
+  },
+  {
+    "id": "M13",
+    "name": "Cumple 7",
+    "projectContext": ["startup"],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "contextRequirements": ["startup"]
+      }
+    ]
+  },
+  {
+    "id": "M14",
+    "name": "Viola 7",
+    "projectContext": ["startup"],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "contextRequirements": ["enterprise"]
+      }
+    ]
+  },
+  {
+    "id": "M15",
+    "name": "Cumple 8",
+    "projectContext": ["cloud_native", "distributed_team"],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "contextRequirements": ["cloud_native", "distributed_team"]
+      }
+    ]
+  },
+  {
+    "id": "M16",
+    "name": "Viola 8",
+    "projectContext": ["cloud_native"],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "contextRequirements": ["cloud_native", "distributed_team"]
+      }
+    ]
+  },
+  {
+    "id": "M17",
+    "name": "Cumple 9",
+    "projectContext": ["maintenance"],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "contextRequirements": ["maintenance"]
+      }
+    ]
+  },
+  {
+    "id": "M18",
+    "name": "Viola 9",
+    "projectContext": ["maintenance"],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "contextRequirements": ["maintenance", "legacy_system"]
+      }
+    ]
+  },
+  {
+    "id": "M19",
+    "name": "Cumple 10",
+    "projectContext": ["medical", "regulated_environment"],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "contextRequirements": ["medical"]
+      },
+      {
+        "id": "P02",
+        "type": "traditional",
+        "contextRequirements": ["regulated_environment"]
+      }
+    ]
+  },
+  {
+    "id": "M20",
+    "name": "Viola 10",
+    "projectContext": ["medical"],
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "contextRequirements": ["medical"]
+      },
+      {
+        "id": "P02",
+        "type": "traditional",
+        "contextRequirements": ["regulated_environment"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,4532 @@
+[
+  {
+    "id": 1,
+    "agileWorkProducts": [
+      "Documento de Validación",
+      "Especificación Funcional",
+      "Manual Técnico",
+      "Modelo de Procesos",
+      "Plan de Calidad",
+      "Plan de Configuración",
+      "Prototipo",
+      "Registro de Riesgos",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Definición de Preparado",
+      "Documento de Verificación",
+      "Documento de Visión",
+      "Especificación Técnica",
+      "Manual de Usuario",
+      "Maqueta de Interfaz",
+      "Plan de Iteración",
+      "Plan de Pruebas",
+      "Registro de Riesgos",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 17,
+    "expectedCPT": 0.117647059
+  },
+  {
+    "id": 2,
+    "agileWorkProducts": [
+      "Caso de Negocio",
+      "Criterios de Aceptación",
+      "Cronograma del Proyecto",
+      "Especificación Funcional",
+      "Modelo de Datos",
+      "Prototipo"
+    ],
+    "planDrivenWorkProducts": [
+      "Caso de Negocio",
+      "Documento de Requisitos",
+      "Lecciones Aprendidas",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 9,
+    "expectedCPT": 0.111111111
+  },
+  {
+    "id": 3,
+    "agileWorkProducts": [
+      "Diagrama de Secuencia",
+      "Documento de Diseño",
+      "Especificación Técnica",
+      "Informe de Estado",
+      "Registro de Deuda Técnica"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Informe de Estado",
+      "Lecciones Aprendidas",
+      "Manual Técnico",
+      "Manual de Usuario",
+      "Plan de Iteración",
+      "Plan del Proyecto",
+      "Registro de Deuda Técnica",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 12,
+    "expectedCPT": 0.166666667
+  },
+  {
+    "id": 4,
+    "agileWorkProducts": [
+      "Caso de Negocio",
+      "Documento de Requisitos",
+      "Especificación Funcional",
+      "Historias de Usuario",
+      "Hoja de Ruta del Producto",
+      "Informe de Pruebas",
+      "Lecciones Aprendidas",
+      "Matriz de Trazabilidad",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Diagrama de Despliegue",
+      "Documento de Arquitectura",
+      "Historias de Usuario"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 11,
+    "expectedCPT": 0.090909091
+  },
+  {
+    "id": 5,
+    "agileWorkProducts": [
+      "Caso de Negocio",
+      "Documento de Visión",
+      "Especificación de Requisitos",
+      "Hoja de Ruta del Producto",
+      "Modelo de Procesos",
+      "Plan del Proyecto"
+    ],
+    "planDrivenWorkProducts": [
+      "Diagrama de Clases",
+      "Lecciones Aprendidas",
+      "Manual Técnico",
+      "Manual de Usuario"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 10,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 6,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Cronograma del Proyecto",
+      "Plan de Pruebas",
+      "Registro de Defectos",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Documento de Diseño",
+      "Modelo de Datos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 8,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 7,
+    "agileWorkProducts": [
+      "Backlog del Producto",
+      "Definición de Preparado",
+      "Informe de Pruebas",
+      "Modelo de Procesos",
+      "Plan de Configuración",
+      "Plan de Gestión de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Prueba",
+      "Definición de Hecho",
+      "Diagrama de Clases",
+      "Documento de Diseño",
+      "Historias de Usuario",
+      "Informe de Estado",
+      "Lecciones Aprendidas"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 13,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 8,
+    "agileWorkProducts": [
+      "Backlog del Producto",
+      "Bosquejo de Arquitectura",
+      "Definición de Hecho",
+      "Diagrama de Despliegue",
+      "Documento de Diseño",
+      "Especificación Técnica",
+      "Historias de Usuario",
+      "Registro de Defectos",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Uso",
+      "Diagrama de Componentes",
+      "Documento de Arquitectura",
+      "Documento de Validación",
+      "Documento de Verificación",
+      "Plan del Proyecto",
+      "Wireframe"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 16,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 9,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Bosquejo de Arquitectura",
+      "Criterios de Aceptación",
+      "Diagrama de Despliegue",
+      "Documento de Diseño",
+      "Documento de Requisitos",
+      "Documento de Validación",
+      "Informe de Estado",
+      "Plan de Liberación"
+    ],
+    "planDrivenWorkProducts": [
+      "Caso de Negocio",
+      "Casos de Prueba",
+      "Casos de Uso",
+      "Documento de Validación",
+      "Especificación Funcional",
+      "Plan de Configuración"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 14,
+    "expectedCPT": 0.071428571
+  },
+  {
+    "id": 10,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Bosquejo de Arquitectura",
+      "Modelo de Datos"
+    ],
+    "planDrivenWorkProducts": [
+      "Cronograma del Proyecto",
+      "Documento de Requisitos",
+      "Plan de Liberación"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 6,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 11,
+    "agileWorkProducts": [
+      "Cronograma del Proyecto",
+      "Diagrama de Despliegue",
+      "Especificación de Requisitos",
+      "Manual Técnico",
+      "Manual de Usuario",
+      "Modelo de Datos",
+      "Plan de Liberación",
+      "Registro de Deuda Técnica"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Plan de Gestión de Riesgos",
+      "Plan de Liberación",
+      "Plan de Pruebas",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 12,
+    "expectedCPT": 0.083333333
+  },
+  {
+    "id": 12,
+    "agileWorkProducts": [
+      "Casos de Prueba",
+      "Definición de Preparado",
+      "Documento de Arquitectura",
+      "Especificación Funcional",
+      "Matriz de Trazabilidad",
+      "Plan de Iteración",
+      "Plan de Liberación",
+      "Plan del Proyecto",
+      "Registro de Defectos"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Backlog del Sprint",
+      "Casos de Uso",
+      "Documento de Requisitos",
+      "Especificación Técnica",
+      "Hoja de Ruta del Producto",
+      "Informe de Estado",
+      "Matriz de Trazabilidad",
+      "Registro de Deuda Técnica"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 17,
+    "expectedCPT": 0.058823529
+  },
+  {
+    "id": 13,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Criterios de Aceptación",
+      "Definición de Hecho",
+      "Informe de Estado",
+      "Maqueta de Interfaz",
+      "Modelo de Datos",
+      "Plan de Iteración",
+      "Registro de Defectos",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Documento de Requisitos",
+      "Informe de Estado",
+      "Modelo de Procesos",
+      "Plan de Calidad",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 14,
+    "expectedCPT": 0.071428571
+  },
+  {
+    "id": 14,
+    "agileWorkProducts": [
+      "Documento de Visión",
+      "Especificación Funcional",
+      "Especificación Técnica",
+      "Lecciones Aprendidas",
+      "Plan del Proyecto"
+    ],
+    "planDrivenWorkProducts": [
+      "Diagrama de Despliegue",
+      "Hoja de Ruta del Producto",
+      "Maqueta de Interfaz",
+      "Plan de Configuración",
+      "Plan del Proyecto",
+      "Registro de Deuda Técnica",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 11,
+    "expectedCPT": 0.090909091
+  },
+  {
+    "id": 15,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Casos de Prueba",
+      "Criterios de Aceptación",
+      "Diagrama de Componentes",
+      "Documento de Verificación",
+      "Plan de Calidad",
+      "Plan de Configuración",
+      "Plan de Pruebas",
+      "Registro de Cambios",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Documento de Arquitectura",
+      "Historias de Usuario",
+      "Manual Técnico",
+      "Matriz de Trazabilidad",
+      "Prototipo",
+      "Registro de Cambios"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 16,
+    "expectedCPT": 0.0625
+  },
+  {
+    "id": 16,
+    "agileWorkProducts": [
+      "Documento de Requisitos",
+      "Informe de Pruebas",
+      "Modelo de Datos",
+      "Plan de Pruebas",
+      "Plan del Proyecto"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Uso",
+      "Diagrama de Clases",
+      "Documento de Arquitectura",
+      "Especificación Funcional",
+      "Historias de Usuario",
+      "Manual de Usuario",
+      "Matriz de Trazabilidad"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 12,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 17,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Bosquejo de Arquitectura",
+      "Criterios de Aceptación",
+      "Diagrama de Secuencia",
+      "Documento de Requisitos",
+      "Documento de Validación",
+      "Especificación Técnica",
+      "Registro de Deuda Técnica"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Diagrama de Componentes",
+      "Diagrama de Secuencia",
+      "Especificación de Requisitos",
+      "Plan de Configuración",
+      "Registro de Cambios",
+      "Registro de Defectos",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 15,
+    "expectedCPT": 0.066666667
+  },
+  {
+    "id": 18,
+    "agileWorkProducts": [
+      "Casos de Uso",
+      "Documento de Validación",
+      "Historias de Usuario",
+      "Hoja de Ruta del Producto",
+      "Informe de Pruebas",
+      "Lecciones Aprendidas",
+      "Manual Técnico",
+      "Registro de Defectos"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Hoja de Ruta del Producto",
+      "Maqueta de Interfaz",
+      "Plan de Liberación",
+      "Plan de Pruebas",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 13,
+    "expectedCPT": 0.076923077
+  },
+  {
+    "id": 19,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Backlog del Producto",
+      "Casos de Prueba",
+      "Diagrama de Clases",
+      "Especificación Funcional",
+      "Especificación Técnica",
+      "Especificación de Requisitos",
+      "Lecciones Aprendidas",
+      "Matriz de Trazabilidad",
+      "Registro de Cambios"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Cronograma del Proyecto",
+      "Documento de Requisitos",
+      "Informe de Estado",
+      "Informe de Pruebas",
+      "Matriz de Trazabilidad",
+      "Plan de Calidad",
+      "Plan de Iteración",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 17,
+    "expectedCPT": 0.117647059
+  },
+  {
+    "id": 20,
+    "agileWorkProducts": [
+      "Definición de Preparado",
+      "Diagrama de Componentes",
+      "Diagrama de Despliegue",
+      "Documento de Validación",
+      "Documento de Visión",
+      "Especificación Técnica",
+      "Hoja de Ruta del Producto",
+      "Informe de Estado",
+      "Maqueta de Interfaz"
+    ],
+    "planDrivenWorkProducts": [
+      "Diagrama de Clases",
+      "Diagrama de Componentes",
+      "Documento de Diseño",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 12,
+    "expectedCPT": 0.083333333
+  },
+  {
+    "id": 21,
+    "agileWorkProducts": [
+      "Caso de Negocio",
+      "Casos de Prueba",
+      "Casos de Uso",
+      "Definición de Preparado",
+      "Plan de Calidad",
+      "Plan de Iteración"
+    ],
+    "planDrivenWorkProducts": [
+      "Diagrama de Componentes",
+      "Documento de Validación",
+      "Historias de Usuario",
+      "Manual de Usuario",
+      "Wireframe"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 11,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 22,
+    "agileWorkProducts": [
+      "Criterios de Aceptación",
+      "Diagrama de Componentes",
+      "Documento de Requisitos",
+      "Manual Técnico",
+      "Plan del Proyecto",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Modelo de Procesos",
+      "Plan del Proyecto",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 8,
+    "expectedCPT": 0.125
+  },
+  {
+    "id": 23,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Documento de Validación",
+      "Especificación Funcional",
+      "Hoja de Ruta del Producto",
+      "Maqueta de Interfaz",
+      "Matriz de Trazabilidad",
+      "Plan de Calidad",
+      "Registro de Defectos"
+    ],
+    "planDrivenWorkProducts": [
+      "Definición de Hecho",
+      "Diagrama de Despliegue",
+      "Historias de Usuario"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 11,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 24,
+    "agileWorkProducts": [
+      "Diagrama de Clases",
+      "Diagrama de Componentes",
+      "Documento de Requisitos",
+      "Documento de Visión",
+      "Historias de Usuario",
+      "Hoja de Ruta del Producto",
+      "Manual Técnico"
+    ],
+    "planDrivenWorkProducts": [
+      "Cronograma del Proyecto",
+      "Definición de Preparado",
+      "Diagrama de Clases",
+      "Diagrama de Despliegue",
+      "Especificación Funcional",
+      "Especificación de Requisitos",
+      "Matriz de Trazabilidad",
+      "Plan de Gestión de Riesgos",
+      "Registro de Interesados",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 16,
+    "expectedCPT": 0.0625
+  },
+  {
+    "id": 25,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Criterios de Aceptación",
+      "Registro de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Documento de Requisitos",
+      "Documento de Verificación",
+      "Historias de Usuario",
+      "Hoja de Ruta del Producto",
+      "Modelo de Datos",
+      "Plan de Pruebas",
+      "Registro de Cambios",
+      "Registro de Defectos",
+      "Registro de Deuda Técnica"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 13,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 26,
+    "agileWorkProducts": [
+      "Casos de Uso",
+      "Especificación Técnica",
+      "Maqueta de Interfaz",
+      "Plan de Iteración"
+    ],
+    "planDrivenWorkProducts": [
+      "Documento de Verificación",
+      "Manual de Usuario",
+      "Modelo de Datos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 7,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 27,
+    "agileWorkProducts": [
+      "Definición de Hecho",
+      "Diagrama de Despliegue",
+      "Plan del Proyecto",
+      "Registro de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Definición de Preparado",
+      "Documento de Requisitos",
+      "Informe de Estado",
+      "Lecciones Aprendidas",
+      "Plan de Gestión de Riesgos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 10,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 28,
+    "agileWorkProducts": [
+      "Definición de Preparado",
+      "Documento de Validación",
+      "Informe de Pruebas",
+      "Lecciones Aprendidas",
+      "Matriz de Trazabilidad",
+      "Plan de Gestión de Riesgos",
+      "Plan de Iteración",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Casos de Prueba",
+      "Diagrama de Componentes",
+      "Documento de Visión",
+      "Lecciones Aprendidas",
+      "Maqueta de Interfaz",
+      "Plan de Iteración",
+      "Registro de Cambios",
+      "Registro de Deuda Técnica",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 16,
+    "expectedCPT": 0.125
+  },
+  {
+    "id": 29,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Historias de Usuario",
+      "Manual de Usuario",
+      "Plan de Calidad",
+      "Plan de Liberación",
+      "Plan de Pruebas",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Documento de Diseño",
+      "Plan de Gestión de Riesgos",
+      "Prototipo"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 10,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 30,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Matriz de Trazabilidad",
+      "Modelo de Datos"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Prueba",
+      "Cronograma del Proyecto",
+      "Diagrama de Secuencia",
+      "Documento de Diseño",
+      "Hoja de Ruta del Producto",
+      "Maqueta de Interfaz",
+      "Modelo de Procesos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 10,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 31,
+    "agileWorkProducts": [
+      "Backlog del Producto",
+      "Casos de Prueba",
+      "Diagrama de Componentes",
+      "Manual Técnico",
+      "Solicitud de Cambio",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Backlog del Sprint",
+      "Casos de Prueba",
+      "Diagrama de Componentes",
+      "Diagrama de Secuencia",
+      "Documento de Validación",
+      "Especificación de Requisitos",
+      "Modelo de Procesos",
+      "Plan de Calidad",
+      "Registro de Cambios"
+    ],
+    "expectedIntersection": 3,
+    "expectedUnion": 13,
+    "expectedCPT": 0.230769231
+  },
+  {
+    "id": 32,
+    "agileWorkProducts": [
+      "Criterios de Aceptación",
+      "Diagrama de Secuencia",
+      "Documento de Validación",
+      "Documento de Verificación",
+      "Documento de Visión",
+      "Manual de Usuario",
+      "Registro de Defectos"
+    ],
+    "planDrivenWorkProducts": [
+      "Caso de Negocio",
+      "Diagrama de Componentes",
+      "Lecciones Aprendidas",
+      "Plan de Calidad",
+      "Plan de Gestión de Riesgos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 12,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 33,
+    "agileWorkProducts": [
+      "Diagrama de Despliegue",
+      "Documento de Validación",
+      "Especificación Funcional",
+      "Maqueta de Interfaz"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Uso",
+      "Cronograma del Proyecto",
+      "Diagrama de Despliegue",
+      "Especificación de Requisitos",
+      "Modelo de Datos",
+      "Plan de Iteración",
+      "Registro de Cambios",
+      "Registro de Defectos",
+      "Registro de Riesgos",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 13,
+    "expectedCPT": 0.076923077
+  },
+  {
+    "id": 34,
+    "agileWorkProducts": [
+      "Definición de Hecho",
+      "Documento de Arquitectura",
+      "Documento de Visión",
+      "Especificación Funcional",
+      "Plan de Gestión de Riesgos",
+      "Prototipo",
+      "Registro de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Prueba",
+      "Matriz de Trazabilidad",
+      "Modelo de Datos",
+      "Plan de Configuración",
+      "Plan de Liberación",
+      "Registro de Interesados",
+      "Wireframe"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 14,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 35,
+    "agileWorkProducts": [
+      "Diagrama de Secuencia",
+      "Documento de Arquitectura",
+      "Documento de Diseño",
+      "Especificación Funcional",
+      "Plan de Iteración",
+      "Plan de Pruebas"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Caso de Negocio",
+      "Diagrama de Despliegue",
+      "Documento de Visión",
+      "Prototipo"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 11,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 36,
+    "agileWorkProducts": [
+      "Definición de Hecho",
+      "Diagrama de Despliegue",
+      "Documento de Arquitectura",
+      "Especificación Funcional",
+      "Especificación de Requisitos",
+      "Informe de Estado",
+      "Modelo de Datos",
+      "Plan de Configuración"
+    ],
+    "planDrivenWorkProducts": [
+      "Cronograma del Proyecto",
+      "Documento de Diseño",
+      "Plan de Configuración",
+      "Registro de Defectos",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 12,
+    "expectedCPT": 0.083333333
+  },
+  {
+    "id": 37,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Caso de Negocio",
+      "Diagrama de Despliegue",
+      "Documento de Validación",
+      "Especificación de Requisitos",
+      "Manual Técnico",
+      "Modelo de Datos",
+      "Plan de Pruebas",
+      "Registro de Cambios",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Caso de Negocio",
+      "Criterios de Aceptación",
+      "Diagrama de Clases",
+      "Diagrama de Despliegue",
+      "Documento de Diseño",
+      "Plan de Configuración",
+      "Plan de Iteración"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 15,
+    "expectedCPT": 0.133333333
+  },
+  {
+    "id": 38,
+    "agileWorkProducts": [
+      "Documento de Verificación",
+      "Plan de Calidad",
+      "Plan de Pruebas"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Diagrama de Componentes",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 6,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 39,
+    "agileWorkProducts": [
+      "Documento de Arquitectura",
+      "Modelo de Datos",
+      "Registro de Cambios"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Cronograma del Proyecto",
+      "Documento de Arquitectura",
+      "Documento de Diseño",
+      "Historias de Usuario",
+      "Hoja de Ruta del Producto",
+      "Manual Técnico",
+      "Plan de Configuración",
+      "Prototipo",
+      "Registro de Deuda Técnica"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 12,
+    "expectedCPT": 0.083333333
+  },
+  {
+    "id": 40,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Diagrama de Despliegue",
+      "Documento de Verificación",
+      "Historias de Usuario",
+      "Hoja de Ruta del Producto",
+      "Informe de Pruebas"
+    ],
+    "planDrivenWorkProducts": [
+      "Cronograma del Proyecto",
+      "Diagrama de Secuencia",
+      "Documento de Arquitectura"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 9,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 41,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Backlog del Producto",
+      "Cronograma del Proyecto",
+      "Diagrama de Despliegue",
+      "Especificación de Requisitos",
+      "Historias de Usuario",
+      "Hoja de Ruta del Producto",
+      "Informe de Pruebas",
+      "Manual de Usuario",
+      "Plan de Iteración"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Casos de Prueba",
+      "Criterios de Aceptación",
+      "Documento de Validación",
+      "Documento de Verificación",
+      "Especificación Técnica",
+      "Historias de Usuario",
+      "Informe de Pruebas",
+      "Plan de Pruebas",
+      "Wireframe"
+    ],
+    "expectedIntersection": 3,
+    "expectedUnion": 17,
+    "expectedCPT": 0.176470588
+  },
+  {
+    "id": 42,
+    "agileWorkProducts": [
+      "Informe de Pruebas",
+      "Manual Técnico",
+      "Plan de Calidad",
+      "Plan de Configuración",
+      "Plan de Pruebas"
+    ],
+    "planDrivenWorkProducts": [
+      "Definición de Hecho",
+      "Definición de Preparado",
+      "Hoja de Ruta del Producto",
+      "Informe de Estado",
+      "Maqueta de Interfaz",
+      "Plan de Liberación"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 11,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 43,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Documento de Arquitectura",
+      "Hoja de Ruta del Producto",
+      "Lecciones Aprendidas",
+      "Plan del Proyecto"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Criterios de Aceptación",
+      "Diagrama de Clases",
+      "Diagrama de Secuencia",
+      "Historias de Usuario",
+      "Modelo de Datos",
+      "Registro de Deuda Técnica"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 12,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 44,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Lecciones Aprendidas",
+      "Plan de Gestión de Riesgos",
+      "Registro de Deuda Técnica",
+      "Registro de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Documento de Diseño",
+      "Plan de Gestión de Riesgos",
+      "Plan de Liberación"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 8,
+    "expectedCPT": 0.125
+  },
+  {
+    "id": 45,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Diagrama de Clases",
+      "Diagrama de Componentes",
+      "Documento de Validación",
+      "Matriz de Trazabilidad",
+      "Plan de Calidad",
+      "Plan de Gestión de Riesgos",
+      "Plan de Liberación"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Uso",
+      "Diagrama de Secuencia",
+      "Especificación Funcional",
+      "Informe de Estado"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 12,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 46,
+    "agileWorkProducts": [
+      "Caso de Negocio",
+      "Diagrama de Clases",
+      "Diagrama de Secuencia",
+      "Documento de Diseño",
+      "Documento de Visión",
+      "Lecciones Aprendidas",
+      "Modelo de Datos",
+      "Plan de Calidad",
+      "Registro de Cambios",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Diagrama de Secuencia",
+      "Documento de Verificación",
+      "Hoja de Ruta del Producto",
+      "Plan del Proyecto",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 13,
+    "expectedCPT": 0.153846154
+  },
+  {
+    "id": 47,
+    "agileWorkProducts": [
+      "Diagrama de Componentes",
+      "Modelo de Datos",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Uso",
+      "Definición de Hecho",
+      "Lecciones Aprendidas",
+      "Modelo de Datos"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 6,
+    "expectedCPT": 0.166666667
+  },
+  {
+    "id": 48,
+    "agileWorkProducts": [
+      "Backlog del Producto",
+      "Caso de Negocio",
+      "Diagrama de Clases",
+      "Documento de Arquitectura",
+      "Documento de Verificación",
+      "Historias de Usuario",
+      "Informe de Estado",
+      "Plan de Pruebas"
+    ],
+    "planDrivenWorkProducts": [
+      "Caso de Negocio",
+      "Casos de Prueba",
+      "Documento de Requisitos",
+      "Documento de Validación",
+      "Historias de Usuario",
+      "Informe de Estado",
+      "Manual de Usuario",
+      "Matriz de Trazabilidad",
+      "Modelo de Procesos",
+      "Plan de Gestión de Riesgos"
+    ],
+    "expectedIntersection": 3,
+    "expectedUnion": 15,
+    "expectedCPT": 0.2
+  },
+  {
+    "id": 49,
+    "agileWorkProducts": [
+      "Definición de Preparado",
+      "Diagrama de Clases",
+      "Diagrama de Secuencia",
+      "Documento de Visión",
+      "Maqueta de Interfaz",
+      "Registro de Cambios",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Uso",
+      "Cronograma del Proyecto",
+      "Diagrama de Componentes",
+      "Documento de Arquitectura",
+      "Matriz de Trazabilidad"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 12,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 50,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Cronograma del Proyecto",
+      "Diagrama de Clases",
+      "Diagrama de Componentes",
+      "Diagrama de Despliegue",
+      "Diagrama de Secuencia",
+      "Especificación Funcional",
+      "Informe de Pruebas",
+      "Plan de Configuración",
+      "Prototipo"
+    ],
+    "planDrivenWorkProducts": [
+      "Cronograma del Proyecto",
+      "Especificación de Requisitos",
+      "Historias de Usuario",
+      "Hoja de Ruta del Producto",
+      "Informe de Estado",
+      "Plan de Pruebas",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 16,
+    "expectedCPT": 0.0625
+  },
+  {
+    "id": 51,
+    "agileWorkProducts": [
+      "Casos de Prueba",
+      "Casos de Uso",
+      "Cronograma del Proyecto",
+      "Especificación Funcional",
+      "Especificación de Requisitos",
+      "Manual Técnico",
+      "Manual de Usuario",
+      "Matriz de Trazabilidad",
+      "Registro de Defectos"
+    ],
+    "planDrivenWorkProducts": [
+      "Caso de Negocio",
+      "Diagrama de Clases",
+      "Especificación Funcional",
+      "Modelo de Procesos",
+      "Plan de Calidad",
+      "Plan de Configuración"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 14,
+    "expectedCPT": 0.071428571
+  },
+  {
+    "id": 52,
+    "agileWorkProducts": [
+      "Diagrama de Componentes",
+      "Diagrama de Secuencia",
+      "Especificación Funcional",
+      "Modelo de Datos",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Diagrama de Secuencia",
+      "Especificación Técnica",
+      "Informe de Estado",
+      "Informe de Pruebas",
+      "Plan de Gestión de Riesgos",
+      "Registro de Deuda Técnica",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 12,
+    "expectedCPT": 0.083333333
+  },
+  {
+    "id": 53,
+    "agileWorkProducts": [
+      "Diagrama de Clases",
+      "Modelo de Procesos",
+      "Plan de Gestión de Riesgos",
+      "Plan de Pruebas",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Diagrama de Clases",
+      "Diagrama de Componentes",
+      "Documento de Arquitectura",
+      "Documento de Diseño",
+      "Modelo de Procesos"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 9,
+    "expectedCPT": 0.222222222
+  },
+  {
+    "id": 54,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Cronograma del Proyecto",
+      "Documento de Visión"
+    ],
+    "planDrivenWorkProducts": [
+      "Caso de Negocio",
+      "Casos de Prueba",
+      "Diagrama de Componentes",
+      "Documento de Diseño",
+      "Documento de Requisitos",
+      "Documento de Validación",
+      "Especificación Técnica",
+      "Manual Técnico",
+      "Registro de Defectos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 12,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 55,
+    "agileWorkProducts": [
+      "Diagrama de Componentes",
+      "Documento de Validación",
+      "Documento de Visión",
+      "Plan de Gestión de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Definición de Preparado",
+      "Documento de Requisitos",
+      "Lecciones Aprendidas",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 8,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 56,
+    "agileWorkProducts": [
+      "Backlog del Producto",
+      "Bosquejo de Arquitectura",
+      "Diagrama de Despliegue",
+      "Documento de Visión",
+      "Especificación Técnica",
+      "Historias de Usuario",
+      "Plan de Pruebas",
+      "Prototipo",
+      "Registro de Defectos"
+    ],
+    "planDrivenWorkProducts": [
+      "Caso de Negocio",
+      "Informe de Estado",
+      "Maqueta de Interfaz",
+      "Modelo de Datos",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 14,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 57,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Caso de Negocio",
+      "Casos de Prueba",
+      "Definición de Preparado",
+      "Especificación Funcional",
+      "Especificación Técnica",
+      "Especificación de Requisitos",
+      "Manual de Usuario",
+      "Plan de Liberación",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Diagrama de Clases",
+      "Diagrama de Componentes",
+      "Diagrama de Despliegue",
+      "Documento de Visión",
+      "Modelo de Datos",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 16,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 58,
+    "agileWorkProducts": [
+      "Casos de Uso",
+      "Maqueta de Interfaz",
+      "Plan de Calidad"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Backlog del Sprint",
+      "Definición de Preparado",
+      "Documento de Verificación",
+      "Informe de Pruebas",
+      "Plan de Iteración"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 9,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 59,
+    "agileWorkProducts": [
+      "Diagrama de Despliegue",
+      "Documento de Arquitectura",
+      "Historias de Usuario",
+      "Lecciones Aprendidas",
+      "Maqueta de Interfaz",
+      "Matriz de Trazabilidad",
+      "Plan de Iteración",
+      "Prototipo",
+      "Registro de Defectos",
+      "Registro de Deuda Técnica"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Documento de Verificación",
+      "Documento de Visión",
+      "Historias de Usuario",
+      "Lecciones Aprendidas",
+      "Plan de Calidad",
+      "Plan de Liberación",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 16,
+    "expectedCPT": 0.125
+  },
+  {
+    "id": 60,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Backlog del Sprint",
+      "Caso de Negocio",
+      "Cronograma del Proyecto",
+      "Documento de Requisitos",
+      "Documento de Verificación",
+      "Hoja de Ruta del Producto",
+      "Maqueta de Interfaz",
+      "Plan de Gestión de Riesgos",
+      "Registro de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Documento de Requisitos",
+      "Historias de Usuario",
+      "Informe de Pruebas",
+      "Manual de Usuario",
+      "Plan de Calidad",
+      "Plan del Proyecto",
+      "Wireframe"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 16,
+    "expectedCPT": 0.0625
+  },
+  {
+    "id": 61,
+    "agileWorkProducts": [
+      "Diagrama de Secuencia",
+      "Manual Técnico",
+      "Registro de Deuda Técnica"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Cronograma del Proyecto",
+      "Documento de Verificación",
+      "Especificación Técnica",
+      "Informe de Estado",
+      "Matriz de Trazabilidad",
+      "Registro de Cambios",
+      "Registro de Deuda Técnica",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 11,
+    "expectedCPT": 0.090909091
+  },
+  {
+    "id": 62,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Definición de Hecho",
+      "Documento de Verificación",
+      "Documento de Visión",
+      "Manual Técnico",
+      "Modelo de Datos",
+      "Registro de Deuda Técnica",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Definición de Preparado",
+      "Documento de Visión",
+      "Manual Técnico",
+      "Plan de Liberación",
+      "Registro de Cambios"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 11,
+    "expectedCPT": 0.181818182
+  },
+  {
+    "id": 63,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Manual Técnico",
+      "Plan del Proyecto",
+      "Registro de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Documento de Diseño",
+      "Lecciones Aprendidas",
+      "Plan de Configuración",
+      "Registro de Deuda Técnica"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 8,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 64,
+    "agileWorkProducts": [
+      "Diagrama de Componentes",
+      "Lecciones Aprendidas",
+      "Plan de Calidad"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Diagrama de Clases",
+      "Documento de Arquitectura",
+      "Documento de Diseño",
+      "Lecciones Aprendidas",
+      "Manual Técnico",
+      "Plan de Liberación",
+      "Prototipo",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 11,
+    "expectedCPT": 0.090909091
+  },
+  {
+    "id": 65,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Bosquejo de Arquitectura",
+      "Diagrama de Despliegue",
+      "Documento de Arquitectura",
+      "Especificación Funcional",
+      "Historias de Usuario",
+      "Manual de Usuario",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Caso de Negocio",
+      "Cronograma del Proyecto",
+      "Registro de Defectos",
+      "Registro de Interesados",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 14,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 66,
+    "agileWorkProducts": [
+      "Casos de Prueba",
+      "Documento de Validación",
+      "Plan de Gestión de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Documento de Diseño",
+      "Maqueta de Interfaz",
+      "Matriz de Trazabilidad",
+      "Registro de Riesgos",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 8,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 67,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Casos de Prueba",
+      "Definición de Preparado",
+      "Informe de Estado",
+      "Plan de Configuración",
+      "Plan del Proyecto",
+      "Registro de Interesados",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Casos de Uso",
+      "Definición de Preparado",
+      "Diagrama de Clases",
+      "Documento de Visión",
+      "Especificación Funcional",
+      "Especificación Técnica",
+      "Hoja de Ruta del Producto"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 14,
+    "expectedCPT": 0.142857143
+  },
+  {
+    "id": 68,
+    "agileWorkProducts": [
+      "Documento de Verificación",
+      "Especificación de Requisitos",
+      "Informe de Estado",
+      "Lecciones Aprendidas",
+      "Plan del Proyecto",
+      "Registro de Defectos",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Diagrama de Clases",
+      "Documento de Diseño",
+      "Documento de Verificación",
+      "Informe de Estado",
+      "Maqueta de Interfaz",
+      "Registro de Cambios",
+      "Registro de Deuda Técnica",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 13,
+    "expectedCPT": 0.153846154
+  },
+  {
+    "id": 69,
+    "agileWorkProducts": [
+      "Caso de Negocio",
+      "Definición de Hecho",
+      "Diagrama de Despliegue",
+      "Historias de Usuario",
+      "Informe de Estado",
+      "Manual de Usuario",
+      "Maqueta de Interfaz",
+      "Plan de Pruebas",
+      "Prototipo",
+      "Registro de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Cronograma del Proyecto",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 13,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 70,
+    "agileWorkProducts": [
+      "Casos de Uso",
+      "Diagrama de Despliegue",
+      "Hoja de Ruta del Producto",
+      "Informe de Estado",
+      "Plan del Proyecto"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Definición de Hecho",
+      "Informe de Pruebas",
+      "Manual Técnico",
+      "Registro de Cambios",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 11,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 71,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Casos de Prueba",
+      "Definición de Hecho",
+      "Diagrama de Despliegue",
+      "Plan de Gestión de Riesgos",
+      "Plan del Proyecto",
+      "Registro de Deuda Técnica",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Documento de Visión",
+      "Lecciones Aprendidas",
+      "Registro de Defectos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 12,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 72,
+    "agileWorkProducts": [
+      "Casos de Prueba",
+      "Criterios de Aceptación",
+      "Definición de Hecho",
+      "Diagrama de Secuencia",
+      "Documento de Requisitos",
+      "Especificación Funcional",
+      "Modelo de Datos",
+      "Registro de Cambios",
+      "Registro de Defectos"
+    ],
+    "planDrivenWorkProducts": [
+      "Definición de Hecho",
+      "Informe de Pruebas",
+      "Plan de Liberación"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 11,
+    "expectedCPT": 0.090909091
+  },
+  {
+    "id": 73,
+    "agileWorkProducts": [
+      "Especificación Funcional",
+      "Especificación Técnica",
+      "Matriz de Trazabilidad",
+      "Plan de Configuración",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Cronograma del Proyecto",
+      "Diagrama de Secuencia",
+      "Documento de Requisitos",
+      "Maqueta de Interfaz",
+      "Plan de Calidad",
+      "Plan de Configuración",
+      "Registro de Deuda Técnica",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 12,
+    "expectedCPT": 0.083333333
+  },
+  {
+    "id": 74,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Criterios de Aceptación",
+      "Documento de Arquitectura",
+      "Documento de Diseño",
+      "Informe de Pruebas",
+      "Plan del Proyecto"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Uso",
+      "Plan de Calidad",
+      "Plan de Configuración",
+      "Plan de Pruebas",
+      "Registro de Defectos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 11,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 75,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Bosquejo de Arquitectura",
+      "Cronograma del Proyecto",
+      "Diagrama de Despliegue",
+      "Documento de Diseño",
+      "Documento de Validación",
+      "Historias de Usuario",
+      "Modelo de Datos",
+      "Plan de Calidad",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Uso",
+      "Diagrama de Clases",
+      "Documento de Arquitectura",
+      "Hoja de Ruta del Producto",
+      "Manual Técnico",
+      "Plan de Liberación"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 16,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 76,
+    "agileWorkProducts": [
+      "Diagrama de Despliegue",
+      "Plan de Gestión de Riesgos",
+      "Plan del Proyecto",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Hoja de Ruta del Producto",
+      "Wireframe"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 6,
+    "expectedCPT": 0.166666667
+  },
+  {
+    "id": 77,
+    "agileWorkProducts": [
+      "Diagrama de Despliegue",
+      "Hoja de Ruta del Producto",
+      "Modelo de Datos",
+      "Plan de Configuración",
+      "Plan de Gestión de Riesgos",
+      "Registro de Defectos"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Uso",
+      "Cronograma del Proyecto",
+      "Diagrama de Secuencia",
+      "Lecciones Aprendidas",
+      "Manual de Usuario",
+      "Plan de Iteración",
+      "Registro de Defectos",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 13,
+    "expectedCPT": 0.076923077
+  },
+  {
+    "id": 78,
+    "agileWorkProducts": [
+      "Diagrama de Despliegue",
+      "Modelo de Datos",
+      "Plan de Calidad",
+      "Plan de Pruebas"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Uso",
+      "Definición de Hecho",
+      "Diagrama de Despliegue",
+      "Documento de Diseño",
+      "Documento de Validación",
+      "Maqueta de Interfaz",
+      "Matriz de Trazabilidad",
+      "Modelo de Datos",
+      "Plan de Gestión de Riesgos"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 11,
+    "expectedCPT": 0.181818182
+  },
+  {
+    "id": 79,
+    "agileWorkProducts": [
+      "Documento de Arquitectura",
+      "Manual Técnico",
+      "Registro de Defectos"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Diagrama de Clases",
+      "Diagrama de Secuencia",
+      "Historias de Usuario",
+      "Modelo de Procesos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 8,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 80,
+    "agileWorkProducts": [
+      "Definición de Preparado",
+      "Diagrama de Clases",
+      "Documento de Diseño",
+      "Manual Técnico"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Definición de Hecho",
+      "Especificación Funcional",
+      "Plan de Configuración",
+      "Plan de Liberación",
+      "Wireframe"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 10,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 81,
+    "agileWorkProducts": [
+      "Definición de Preparado",
+      "Documento de Validación",
+      "Plan de Liberación"
+    ],
+    "planDrivenWorkProducts": [
+      "Cronograma del Proyecto",
+      "Documento de Verificación",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 6,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 82,
+    "agileWorkProducts": [
+      "Casos de Uso",
+      "Definición de Hecho",
+      "Especificación Funcional",
+      "Plan de Calidad",
+      "Plan de Iteración",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Diagrama de Componentes",
+      "Documento de Arquitectura",
+      "Documento de Validación",
+      "Registro de Deuda Técnica"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 11,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 83,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Especificación Técnica",
+      "Especificación de Requisitos",
+      "Informe de Estado",
+      "Modelo de Procesos",
+      "Prototipo",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Definición de Hecho",
+      "Diagrama de Clases",
+      "Diagrama de Despliegue",
+      "Informe de Pruebas",
+      "Wireframe"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 11,
+    "expectedCPT": 0.181818182
+  },
+  {
+    "id": 84,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Casos de Prueba",
+      "Cronograma del Proyecto",
+      "Diagrama de Despliegue",
+      "Diagrama de Secuencia",
+      "Documento de Requisitos",
+      "Documento de Visión",
+      "Maqueta de Interfaz",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Criterios de Aceptación",
+      "Cronograma del Proyecto",
+      "Documento de Arquitectura",
+      "Documento de Verificación",
+      "Documento de Visión",
+      "Especificación Funcional",
+      "Historias de Usuario",
+      "Plan de Configuración"
+    ],
+    "expectedIntersection": 3,
+    "expectedUnion": 15,
+    "expectedCPT": 0.2
+  },
+  {
+    "id": 85,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Bosquejo de Arquitectura",
+      "Caso de Negocio",
+      "Diagrama de Despliegue",
+      "Hoja de Ruta del Producto",
+      "Plan del Proyecto",
+      "Registro de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Prueba",
+      "Casos de Uso",
+      "Diagrama de Secuencia",
+      "Documento de Diseño",
+      "Informe de Pruebas",
+      "Manual de Usuario",
+      "Matriz de Trazabilidad",
+      "Modelo de Datos",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 15,
+    "expectedCPT": 0.066666667
+  },
+  {
+    "id": 86,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Diagrama de Componentes",
+      "Documento de Validación",
+      "Informe de Estado",
+      "Informe de Pruebas"
+    ],
+    "planDrivenWorkProducts": [
+      "Definición de Preparado",
+      "Diagrama de Componentes",
+      "Diagrama de Secuencia",
+      "Especificación de Requisitos",
+      "Informe de Estado",
+      "Lecciones Aprendidas",
+      "Manual de Usuario",
+      "Plan de Liberación",
+      "Registro de Deuda Técnica",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 13,
+    "expectedCPT": 0.153846154
+  },
+  {
+    "id": 87,
+    "agileWorkProducts": [
+      "Casos de Prueba",
+      "Definición de Preparado",
+      "Diagrama de Clases",
+      "Documento de Diseño",
+      "Especificación Funcional",
+      "Especificación Técnica",
+      "Maqueta de Interfaz",
+      "Modelo de Datos",
+      "Plan de Gestión de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Prueba",
+      "Definición de Hecho",
+      "Diagrama de Secuencia",
+      "Hoja de Ruta del Producto",
+      "Manual de Usuario",
+      "Plan de Pruebas",
+      "Registro de Deuda Técnica",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 16,
+    "expectedCPT": 0.0625
+  },
+  {
+    "id": 88,
+    "agileWorkProducts": [
+      "Informe de Pruebas",
+      "Matriz de Trazabilidad",
+      "Plan de Calidad"
+    ],
+    "planDrivenWorkProducts": [
+      "Diagrama de Secuencia",
+      "Historias de Usuario",
+      "Informe de Estado",
+      "Manual Técnico",
+      "Registro de Cambios"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 8,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 89,
+    "agileWorkProducts": [
+      "Diagrama de Secuencia",
+      "Documento de Arquitectura",
+      "Registro de Defectos"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Criterios de Aceptación",
+      "Documento de Validación",
+      "Plan de Iteración",
+      "Plan del Proyecto",
+      "Registro de Defectos",
+      "Registro de Deuda Técnica"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 9,
+    "expectedCPT": 0.111111111
+  },
+  {
+    "id": 90,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Diagrama de Componentes",
+      "Diagrama de Secuencia",
+      "Modelo de Datos",
+      "Modelo de Procesos",
+      "Registro de Defectos",
+      "Registro de Interesados",
+      "Registro de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Backlog del Sprint",
+      "Casos de Prueba",
+      "Diagrama de Despliegue",
+      "Documento de Diseño",
+      "Especificación de Requisitos",
+      "Maqueta de Interfaz",
+      "Modelo de Procesos",
+      "Plan de Calidad"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 16,
+    "expectedCPT": 0.0625
+  },
+  {
+    "id": 91,
+    "agileWorkProducts": [
+      "Backlog del Producto",
+      "Definición de Preparado",
+      "Diagrama de Secuencia",
+      "Especificación de Requisitos",
+      "Informe de Pruebas"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Prueba",
+      "Criterios de Aceptación",
+      "Documento de Verificación",
+      "Lecciones Aprendidas",
+      "Maqueta de Interfaz",
+      "Modelo de Procesos",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 12,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 92,
+    "agileWorkProducts": [
+      "Criterios de Aceptación",
+      "Diagrama de Despliegue",
+      "Informe de Pruebas",
+      "Manual Técnico",
+      "Plan de Calidad",
+      "Plan de Iteración",
+      "Registro de Cambios",
+      "Registro de Riesgos",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Caso de Negocio",
+      "Diagrama de Componentes",
+      "Manual Técnico",
+      "Manual de Usuario",
+      "Modelo de Datos",
+      "Plan de Gestión de Riesgos",
+      "Registro de Cambios",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 16,
+    "expectedCPT": 0.125
+  },
+  {
+    "id": 93,
+    "agileWorkProducts": [
+      "Diagrama de Secuencia",
+      "Documento de Arquitectura",
+      "Especificación de Requisitos",
+      "Informe de Pruebas",
+      "Plan de Liberación",
+      "Plan de Pruebas",
+      "Plan del Proyecto",
+      "Registro de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Diagrama de Secuencia",
+      "Documento de Arquitectura",
+      "Especificación de Requisitos",
+      "Plan de Pruebas"
+    ],
+    "expectedIntersection": 4,
+    "expectedUnion": 8,
+    "expectedCPT": 0.5
+  },
+  {
+    "id": 94,
+    "agileWorkProducts": [
+      "Cronograma del Proyecto",
+      "Documento de Diseño",
+      "Documento de Requisitos",
+      "Documento de Validación",
+      "Modelo de Procesos",
+      "Plan de Liberación"
+    ],
+    "planDrivenWorkProducts": [
+      "Diagrama de Secuencia",
+      "Documento de Validación",
+      "Especificación Técnica",
+      "Manual de Usuario",
+      "Plan de Calidad",
+      "Plan de Iteración",
+      "Registro de Defectos",
+      "Registro de Deuda Técnica",
+      "Registro de Interesados",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 15,
+    "expectedCPT": 0.066666667
+  },
+  {
+    "id": 95,
+    "agileWorkProducts": [
+      "Cronograma del Proyecto",
+      "Documento de Visión",
+      "Historias de Usuario",
+      "Informe de Estado",
+      "Manual de Usuario",
+      "Prototipo",
+      "Registro de Interesados",
+      "Registro de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Documento de Diseño",
+      "Plan de Configuración",
+      "Plan de Liberación",
+      "Plan de Pruebas"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 12,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 96,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Documento de Diseño",
+      "Lecciones Aprendidas",
+      "Manual de Usuario",
+      "Registro de Deuda Técnica",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Documento de Diseño",
+      "Documento de Validación"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 7,
+    "expectedCPT": 0.285714286
+  },
+  {
+    "id": 97,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Casos de Prueba",
+      "Definición de Preparado",
+      "Diagrama de Componentes",
+      "Documento de Verificación",
+      "Hoja de Ruta del Producto",
+      "Maqueta de Interfaz",
+      "Matriz de Trazabilidad",
+      "Plan de Calidad",
+      "Prototipo"
+    ],
+    "planDrivenWorkProducts": [
+      "Diagrama de Clases",
+      "Lecciones Aprendidas",
+      "Manual Técnico",
+      "Plan de Gestión de Riesgos",
+      "Plan de Pruebas",
+      "Prototipo",
+      "Registro de Defectos",
+      "Registro de Interesados",
+      "Wireframe"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 18,
+    "expectedCPT": 0.055555556
+  },
+  {
+    "id": 98,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Diagrama de Componentes",
+      "Diagrama de Secuencia",
+      "Hoja de Ruta del Producto",
+      "Informe de Pruebas",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Manual de Usuario",
+      "Plan de Liberación"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 9,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 99,
+    "agileWorkProducts": [
+      "Backlog del Producto",
+      "Backlog del Sprint",
+      "Caso de Negocio",
+      "Criterios de Aceptación",
+      "Documento de Arquitectura",
+      "Documento de Validación",
+      "Modelo de Procesos",
+      "Plan de Liberación",
+      "Solicitud de Cambio",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Criterios de Aceptación",
+      "Diagrama de Componentes",
+      "Documento de Arquitectura",
+      "Documento de Verificación",
+      "Historias de Usuario",
+      "Plan de Configuración",
+      "Registro de Interesados",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 16,
+    "expectedCPT": 0.125
+  },
+  {
+    "id": 100,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Caso de Negocio",
+      "Definición de Hecho",
+      "Diagrama de Despliegue",
+      "Historias de Usuario",
+      "Lecciones Aprendidas"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Bosquejo de Arquitectura",
+      "Diagrama de Componentes",
+      "Documento de Requisitos",
+      "Hoja de Ruta del Producto",
+      "Informe de Estado",
+      "Maqueta de Interfaz"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 12,
+    "expectedCPT": 0.083333333
+  },
+  {
+    "id": 101,
+    "agileWorkProducts": [
+      "Diagrama de Despliegue",
+      "Especificación Técnica",
+      "Lecciones Aprendidas"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Casos de Uso",
+      "Criterios de Aceptación",
+      "Diagrama de Despliegue",
+      "Especificación Técnica",
+      "Modelo de Datos"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 7,
+    "expectedCPT": 0.285714286
+  },
+  {
+    "id": 102,
+    "agileWorkProducts": [
+      "Criterios de Aceptación",
+      "Cronograma del Proyecto",
+      "Definición de Hecho",
+      "Definición de Preparado",
+      "Diagrama de Componentes",
+      "Manual Técnico",
+      "Plan de Gestión de Riesgos",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Documento de Arquitectura",
+      "Documento de Visión",
+      "Plan de Liberación",
+      "Prototipo"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 12,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 103,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Cronograma del Proyecto",
+      "Especificación Técnica",
+      "Historias de Usuario",
+      "Manual Técnico",
+      "Manual de Usuario",
+      "Maqueta de Interfaz",
+      "Modelo de Procesos",
+      "Prototipo",
+      "Registro de Cambios"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Documento de Arquitectura",
+      "Documento de Visión",
+      "Historias de Usuario",
+      "Manual Técnico",
+      "Manual de Usuario",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 3,
+    "expectedUnion": 14,
+    "expectedCPT": 0.214285714
+  },
+  {
+    "id": 104,
+    "agileWorkProducts": [
+      "Diagrama de Componentes",
+      "Documento de Diseño",
+      "Documento de Verificación",
+      "Especificación Funcional",
+      "Especificación Técnica",
+      "Plan de Iteración",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Criterios de Aceptación",
+      "Especificación Funcional",
+      "Hoja de Ruta del Producto",
+      "Maqueta de Interfaz"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 10,
+    "expectedCPT": 0.1
+  },
+  {
+    "id": 105,
+    "agileWorkProducts": [
+      "Especificación de Requisitos",
+      "Manual de Usuario",
+      "Registro de Cambios"
+    ],
+    "planDrivenWorkProducts": [
+      "Cronograma del Proyecto",
+      "Especificación Funcional",
+      "Especificación de Requisitos",
+      "Maqueta de Interfaz",
+      "Modelo de Datos",
+      "Registro de Cambios"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 7,
+    "expectedCPT": 0.285714286
+  },
+  {
+    "id": 106,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Criterios de Aceptación",
+      "Documento de Verificación",
+      "Documento de Visión",
+      "Especificación Funcional",
+      "Manual Técnico",
+      "Modelo de Procesos",
+      "Registro de Riesgos",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Documento de Diseño",
+      "Documento de Visión",
+      "Lecciones Aprendidas",
+      "Matriz de Trazabilidad",
+      "Plan de Iteración"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 13,
+    "expectedCPT": 0.076923077
+  },
+  {
+    "id": 107,
+    "agileWorkProducts": [
+      "Casos de Prueba",
+      "Cronograma del Proyecto",
+      "Diagrama de Despliegue",
+      "Diagrama de Secuencia",
+      "Manual de Usuario"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Caso de Negocio",
+      "Casos de Uso",
+      "Criterios de Aceptación",
+      "Definición de Preparado",
+      "Documento de Diseño",
+      "Documento de Requisitos",
+      "Historias de Usuario",
+      "Maqueta de Interfaz",
+      "Wireframe"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 15,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 108,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Bosquejo de Arquitectura",
+      "Casos de Uso",
+      "Lecciones Aprendidas",
+      "Maqueta de Interfaz",
+      "Plan del Proyecto",
+      "Registro de Deuda Técnica",
+      "Registro de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Casos de Uso",
+      "Definición de Preparado",
+      "Documento de Visión",
+      "Lecciones Aprendidas",
+      "Manual de Usuario",
+      "Modelo de Datos",
+      "Plan de Liberación",
+      "Registro de Defectos"
+    ],
+    "expectedIntersection": 3,
+    "expectedUnion": 14,
+    "expectedCPT": 0.214285714
+  },
+  {
+    "id": 109,
+    "agileWorkProducts": [
+      "Diagrama de Despliegue",
+      "Informe de Pruebas",
+      "Plan de Liberación",
+      "Plan del Proyecto"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Cronograma del Proyecto",
+      "Especificación Técnica",
+      "Plan de Iteración"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 8,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 110,
+    "agileWorkProducts": [
+      "Lecciones Aprendidas",
+      "Plan de Calidad",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Plan de Gestión de Riesgos",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 5,
+    "expectedCPT": 0.2
+  },
+  {
+    "id": 111,
+    "agileWorkProducts": [
+      "Caso de Negocio",
+      "Especificación Técnica",
+      "Especificación de Requisitos",
+      "Informe de Pruebas",
+      "Registro de Deuda Técnica"
+    ],
+    "planDrivenWorkProducts": [
+      "Definición de Hecho",
+      "Diagrama de Secuencia",
+      "Lecciones Aprendidas",
+      "Maqueta de Interfaz"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 9,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 112,
+    "agileWorkProducts": [
+      "Casos de Uso",
+      "Documento de Requisitos",
+      "Especificación de Requisitos",
+      "Plan de Liberación",
+      "Plan del Proyecto"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Backlog del Sprint",
+      "Criterios de Aceptación",
+      "Documento de Requisitos",
+      "Documento de Validación",
+      "Manual Técnico",
+      "Prototipo",
+      "Wireframe"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 12,
+    "expectedCPT": 0.083333333
+  },
+  {
+    "id": 113,
+    "agileWorkProducts": [
+      "Hoja de Ruta del Producto",
+      "Informe de Estado",
+      "Informe de Pruebas",
+      "Lecciones Aprendidas",
+      "Manual Técnico",
+      "Matriz de Trazabilidad"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Casos de Uso",
+      "Diagrama de Componentes",
+      "Diagrama de Despliegue",
+      "Documento de Arquitectura",
+      "Informe de Pruebas",
+      "Registro de Deuda Técnica"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 12,
+    "expectedCPT": 0.083333333
+  },
+  {
+    "id": 114,
+    "agileWorkProducts": [
+      "Backlog del Producto",
+      "Diagrama de Despliegue",
+      "Documento de Verificación",
+      "Especificación Funcional",
+      "Manual Técnico",
+      "Modelo de Datos",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Caso de Negocio",
+      "Definición de Preparado",
+      "Diagrama de Secuencia",
+      "Documento de Requisitos",
+      "Manual Técnico",
+      "Plan del Proyecto",
+      "Prototipo",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 15,
+    "expectedCPT": 0.066666667
+  },
+  {
+    "id": 115,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Documento de Requisitos",
+      "Informe de Estado",
+      "Informe de Pruebas",
+      "Plan de Calidad"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Bosquejo de Arquitectura",
+      "Definición de Hecho",
+      "Documento de Arquitectura",
+      "Hoja de Ruta del Producto",
+      "Plan de Pruebas",
+      "Registro de Defectos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 12,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 116,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Casos de Uso",
+      "Cronograma del Proyecto",
+      "Definición de Preparado",
+      "Diagrama de Despliegue",
+      "Documento de Visión",
+      "Manual de Usuario",
+      "Plan de Liberación",
+      "Registro de Deuda Técnica",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Documento de Diseño",
+      "Lecciones Aprendidas",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 14,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 117,
+    "agileWorkProducts": [
+      "Backlog del Producto",
+      "Bosquejo de Arquitectura",
+      "Informe de Estado",
+      "Manual Técnico"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Cronograma del Proyecto",
+      "Informe de Pruebas",
+      "Plan de Gestión de Riesgos",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 8,
+    "expectedCPT": 0.125
+  },
+  {
+    "id": 118,
+    "agileWorkProducts": [
+      "Backlog del Producto",
+      "Cronograma del Proyecto",
+      "Hoja de Ruta del Producto",
+      "Lecciones Aprendidas",
+      "Manual de Usuario"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Criterios de Aceptación",
+      "Definición de Hecho",
+      "Definición de Preparado",
+      "Diagrama de Componentes",
+      "Documento de Requisitos",
+      "Manual Técnico",
+      "Manual de Usuario",
+      "Registro de Deuda Técnica",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 14,
+    "expectedCPT": 0.071428571
+  },
+  {
+    "id": 119,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Documento de Verificación",
+      "Documento de Visión",
+      "Manual de Usuario",
+      "Modelo de Datos",
+      "Plan de Gestión de Riesgos",
+      "Registro de Cambios",
+      "Registro de Deuda Técnica",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Diagrama de Clases",
+      "Diagrama de Componentes",
+      "Documento de Arquitectura",
+      "Documento de Validación",
+      "Especificación Técnica",
+      "Informe de Pruebas",
+      "Manual Técnico",
+      "Plan de Calidad",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 18,
+    "expectedCPT": 0.055555556
+  },
+  {
+    "id": 120,
+    "agileWorkProducts": [
+      "Definición de Hecho",
+      "Documento de Visión",
+      "Plan de Liberación",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Uso",
+      "Definición de Preparado",
+      "Diagrama de Despliegue",
+      "Documento de Diseño",
+      "Documento de Validación",
+      "Historias de Usuario"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 10,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 121,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Diagrama de Componentes",
+      "Especificación Técnica",
+      "Registro de Cambios",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Caso de Negocio",
+      "Documento de Visión",
+      "Especificación Técnica",
+      "Informe de Pruebas",
+      "Registro de Cambios"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 9,
+    "expectedCPT": 0.222222222
+  },
+  {
+    "id": 122,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Casos de Uso",
+      "Documento de Requisitos",
+      "Documento de Visión",
+      "Especificación Técnica",
+      "Manual de Usuario",
+      "Registro de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Cronograma del Proyecto",
+      "Diagrama de Despliegue",
+      "Documento de Verificación",
+      "Hoja de Ruta del Producto",
+      "Maqueta de Interfaz",
+      "Modelo de Procesos",
+      "Plan de Liberación",
+      "Plan del Proyecto",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 15,
+    "expectedCPT": 0.133333333
+  },
+  {
+    "id": 123,
+    "agileWorkProducts": [
+      "Caso de Negocio",
+      "Cronograma del Proyecto",
+      "Diagrama de Componentes",
+      "Plan de Gestión de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Prueba",
+      "Diagrama de Componentes",
+      "Diagrama de Despliegue",
+      "Diagrama de Secuencia",
+      "Hoja de Ruta del Producto",
+      "Manual Técnico",
+      "Modelo de Procesos",
+      "Plan del Proyecto",
+      "Registro de Cambios"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 12,
+    "expectedCPT": 0.083333333
+  },
+  {
+    "id": 124,
+    "agileWorkProducts": [
+      "Diagrama de Despliegue",
+      "Documento de Arquitectura",
+      "Documento de Verificación",
+      "Especificación de Requisitos",
+      "Hoja de Ruta del Producto",
+      "Manual de Usuario",
+      "Plan de Calidad",
+      "Prototipo"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Casos de Uso",
+      "Diagrama de Secuencia",
+      "Lecciones Aprendidas",
+      "Registro de Cambios"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 13,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 125,
+    "agileWorkProducts": [
+      "Caso de Negocio",
+      "Diagrama de Clases",
+      "Diagrama de Despliegue",
+      "Documento de Requisitos",
+      "Manual Técnico",
+      "Plan de Calidad",
+      "Prototipo",
+      "Registro de Interesados",
+      "Registro de Riesgos",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Hoja de Ruta del Producto",
+      "Informe de Pruebas",
+      "Lecciones Aprendidas",
+      "Modelo de Datos",
+      "Modelo de Procesos",
+      "Registro de Defectos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 16,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 126,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Diagrama de Clases",
+      "Diagrama de Componentes",
+      "Documento de Requisitos",
+      "Maqueta de Interfaz",
+      "Modelo de Procesos",
+      "Plan de Calidad"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Prueba",
+      "Manual de Usuario",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 10,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 127,
+    "agileWorkProducts": [
+      "Documento de Validación",
+      "Documento de Visión",
+      "Registro de Riesgos",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Historias de Usuario",
+      "Hoja de Ruta del Producto",
+      "Plan de Configuración"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 8,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 128,
+    "agileWorkProducts": [
+      "Backlog del Producto",
+      "Bosquejo de Arquitectura",
+      "Casos de Uso",
+      "Cronograma del Proyecto",
+      "Informe de Pruebas",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Diagrama de Despliegue",
+      "Documento de Arquitectura",
+      "Historias de Usuario",
+      "Modelo de Datos",
+      "Wireframe"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 11,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 129,
+    "agileWorkProducts": [
+      "Especificación Funcional",
+      "Plan de Configuración",
+      "Registro de Riesgos",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Caso de Negocio",
+      "Casos de Uso",
+      "Diagrama de Despliegue",
+      "Documento de Diseño",
+      "Documento de Validación"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 9,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 130,
+    "agileWorkProducts": [
+      "Documento de Diseño",
+      "Documento de Requisitos",
+      "Matriz de Trazabilidad",
+      "Plan de Liberación",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Casos de Prueba",
+      "Criterios de Aceptación",
+      "Cronograma del Proyecto",
+      "Diagrama de Secuencia",
+      "Documento de Requisitos",
+      "Registro de Cambios",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 12,
+    "expectedCPT": 0.083333333
+  },
+  {
+    "id": 131,
+    "agileWorkProducts": [
+      "Diagrama de Despliegue",
+      "Informe de Estado",
+      "Registro de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Backlog del Sprint",
+      "Bosquejo de Arquitectura",
+      "Diagrama de Secuencia",
+      "Documento de Requisitos",
+      "Informe de Pruebas",
+      "Maqueta de Interfaz",
+      "Modelo de Procesos",
+      "Plan de Liberación",
+      "Wireframe"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 13,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 132,
+    "agileWorkProducts": [
+      "Casos de Prueba",
+      "Criterios de Aceptación",
+      "Documento de Arquitectura",
+      "Registro de Deuda Técnica"
+    ],
+    "planDrivenWorkProducts": [
+      "Hoja de Ruta del Producto",
+      "Manual de Usuario",
+      "Modelo de Procesos",
+      "Plan de Calidad",
+      "Wireframe"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 9,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 133,
+    "agileWorkProducts": [
+      "Backlog del Producto",
+      "Bosquejo de Arquitectura",
+      "Modelo de Datos",
+      "Modelo de Procesos",
+      "Plan de Liberación",
+      "Plan del Proyecto",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Definición de Preparado",
+      "Manual de Usuario",
+      "Plan de Pruebas"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 10,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 134,
+    "agileWorkProducts": [
+      "Especificación de Requisitos",
+      "Historias de Usuario",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Cronograma del Proyecto",
+      "Documento de Validación",
+      "Documento de Verificación",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 8,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 135,
+    "agileWorkProducts": [
+      "Informe de Pruebas",
+      "Manual de Usuario",
+      "Plan de Gestión de Riesgos",
+      "Plan de Iteración"
+    ],
+    "planDrivenWorkProducts": [
+      "Criterios de Aceptación",
+      "Diagrama de Componentes",
+      "Documento de Arquitectura"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 7,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 136,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Diagrama de Componentes",
+      "Documento de Arquitectura",
+      "Documento de Validación",
+      "Modelo de Datos",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Criterios de Aceptación",
+      "Manual de Usuario",
+      "Matriz de Trazabilidad",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 10,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 137,
+    "agileWorkProducts": [
+      "Diagrama de Clases",
+      "Manual Técnico",
+      "Registro de Interesados",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Definición de Hecho",
+      "Documento de Arquitectura",
+      "Hoja de Ruta del Producto",
+      "Informe de Estado",
+      "Lecciones Aprendidas",
+      "Plan del Proyecto",
+      "Solicitud de Cambio",
+      "Wireframe"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 12,
+    "expectedCPT": 0.083333333
+  },
+  {
+    "id": 138,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Criterios de Aceptación",
+      "Especificación de Requisitos",
+      "Informe de Pruebas",
+      "Modelo de Datos"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Cronograma del Proyecto",
+      "Diagrama de Despliegue",
+      "Documento de Visión",
+      "Especificación Funcional",
+      "Especificación Técnica",
+      "Especificación de Requisitos",
+      "Plan de Gestión de Riesgos",
+      "Registro de Cambios",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 14,
+    "expectedCPT": 0.071428571
+  },
+  {
+    "id": 139,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Criterios de Aceptación",
+      "Documento de Diseño",
+      "Manual de Usuario",
+      "Maqueta de Interfaz",
+      "Matriz de Trazabilidad",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Especificación Funcional",
+      "Plan del Proyecto",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 9,
+    "expectedCPT": 0.111111111
+  },
+  {
+    "id": 140,
+    "agileWorkProducts": [
+      "Backlog del Producto",
+      "Documento de Requisitos",
+      "Documento de Visión",
+      "Informe de Estado"
+    ],
+    "planDrivenWorkProducts": [
+      "Criterios de Aceptación",
+      "Maqueta de Interfaz",
+      "Modelo de Procesos",
+      "Plan de Iteración"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 8,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 141,
+    "agileWorkProducts": [
+      "Backlog del Producto",
+      "Caso de Negocio",
+      "Criterios de Aceptación",
+      "Documento de Verificación",
+      "Documento de Visión"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Maqueta de Interfaz",
+      "Plan de Configuración",
+      "Prototipo",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 10,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 142,
+    "agileWorkProducts": [
+      "Casos de Prueba",
+      "Diagrama de Secuencia",
+      "Especificación Funcional",
+      "Informe de Pruebas"
+    ],
+    "planDrivenWorkProducts": [
+      "Diagrama de Componentes",
+      "Diagrama de Despliegue",
+      "Documento de Requisitos",
+      "Especificación Funcional",
+      "Plan de Configuración",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 9,
+    "expectedCPT": 0.111111111
+  },
+  {
+    "id": 143,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Cronograma del Proyecto",
+      "Documento de Arquitectura",
+      "Plan de Pruebas",
+      "Registro de Cambios"
+    ],
+    "planDrivenWorkProducts": [
+      "Diagrama de Despliegue",
+      "Documento de Visión",
+      "Historias de Usuario",
+      "Informe de Estado",
+      "Informe de Pruebas",
+      "Plan de Calidad",
+      "Plan de Gestión de Riesgos",
+      "Registro de Cambios"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 12,
+    "expectedCPT": 0.083333333
+  },
+  {
+    "id": 144,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Cronograma del Proyecto",
+      "Diagrama de Clases",
+      "Documento de Validación",
+      "Matriz de Trazabilidad",
+      "Plan de Calidad",
+      "Plan de Gestión de Riesgos",
+      "Registro de Cambios",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Prueba",
+      "Documento de Diseño",
+      "Especificación de Requisitos",
+      "Plan de Configuración",
+      "Plan de Iteración",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 15,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 145,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Definición de Hecho",
+      "Diagrama de Componentes",
+      "Documento de Verificación",
+      "Modelo de Datos",
+      "Registro de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Definición de Preparado",
+      "Diagrama de Componentes",
+      "Diagrama de Secuencia",
+      "Documento de Requisitos",
+      "Manual de Usuario",
+      "Matriz de Trazabilidad",
+      "Plan de Liberación"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 13,
+    "expectedCPT": 0.076923077
+  },
+  {
+    "id": 146,
+    "agileWorkProducts": [
+      "Documento de Diseño",
+      "Documento de Validación",
+      "Informe de Estado",
+      "Informe de Pruebas",
+      "Modelo de Procesos"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Backlog del Producto",
+      "Documento de Verificación",
+      "Modelo de Datos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 9,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 147,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Diagrama de Despliegue",
+      "Prototipo",
+      "Registro de Cambios",
+      "Registro de Deuda Técnica",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Backlog del Sprint",
+      "Diagrama de Componentes",
+      "Modelo de Procesos",
+      "Plan de Iteración",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 11,
+    "expectedCPT": 0.090909091
+  },
+  {
+    "id": 148,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Diagrama de Clases",
+      "Documento de Arquitectura",
+      "Especificación Funcional",
+      "Lecciones Aprendidas",
+      "Plan de Calidad",
+      "Plan de Pruebas",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Uso",
+      "Documento de Arquitectura",
+      "Informe de Pruebas",
+      "Plan de Gestión de Riesgos",
+      "Registro de Defectos"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 12,
+    "expectedCPT": 0.083333333
+  },
+  {
+    "id": 149,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Criterios de Aceptación",
+      "Diagrama de Clases",
+      "Diagrama de Despliegue",
+      "Diagrama de Secuencia",
+      "Documento de Arquitectura",
+      "Modelo de Procesos",
+      "Plan de Configuración"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Hoja de Ruta del Producto",
+      "Informe de Pruebas",
+      "Manual de Usuario",
+      "Maqueta de Interfaz",
+      "Modelo de Procesos",
+      "Plan de Gestión de Riesgos",
+      "Plan de Pruebas",
+      "Registro de Deuda Técnica",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 17,
+    "expectedCPT": 0.058823529
+  },
+  {
+    "id": 150,
+    "agileWorkProducts": [
+      "Casos de Uso",
+      "Diagrama de Componentes",
+      "Documento de Requisitos",
+      "Plan de Gestión de Riesgos",
+      "Plan de Pruebas"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Definición de Hecho",
+      "Diagrama de Despliegue",
+      "Documento de Arquitectura",
+      "Documento de Visión",
+      "Plan de Calidad"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 11,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 151,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Backlog del Sprint",
+      "Bosquejo de Arquitectura",
+      "Definición de Preparado",
+      "Documento de Diseño",
+      "Documento de Visión",
+      "Modelo de Datos",
+      "Plan de Pruebas",
+      "Registro de Cambios",
+      "Registro de Deuda Técnica"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Uso",
+      "Historias de Usuario",
+      "Hoja de Ruta del Producto",
+      "Manual Técnico",
+      "Manual de Usuario",
+      "Plan de Calidad"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 16,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 152,
+    "agileWorkProducts": [
+      "Casos de Uso",
+      "Diagrama de Despliegue",
+      "Especificación Funcional",
+      "Informe de Estado",
+      "Manual Técnico",
+      "Plan de Calidad",
+      "Plan de Liberación"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Prueba",
+      "Especificación de Requisitos",
+      "Modelo de Procesos",
+      "Plan de Liberación",
+      "Registro de Defectos",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 12,
+    "expectedCPT": 0.083333333
+  },
+  {
+    "id": 153,
+    "agileWorkProducts": [
+      "Backlog del Producto",
+      "Especificación Funcional",
+      "Especificación Técnica",
+      "Informe de Pruebas",
+      "Modelo de Procesos"
+    ],
+    "planDrivenWorkProducts": [
+      "Caso de Negocio",
+      "Definición de Preparado",
+      "Documento de Requisitos",
+      "Historias de Usuario",
+      "Plan de Gestión de Riesgos",
+      "Registro de Defectos",
+      "Registro de Riesgos",
+      "Wireframe"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 13,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 154,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Documento de Validación",
+      "Especificación Técnica",
+      "Hoja de Ruta del Producto",
+      "Manual de Usuario",
+      "Plan de Pruebas",
+      "Registro de Defectos",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Cronograma del Proyecto",
+      "Documento de Validación",
+      "Informe de Pruebas",
+      "Registro de Defectos",
+      "Wireframe"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 11,
+    "expectedCPT": 0.181818182
+  },
+  {
+    "id": 155,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Documento de Requisitos",
+      "Documento de Verificación",
+      "Modelo de Datos",
+      "Registro de Cambios"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Documento de Visión",
+      "Informe de Pruebas",
+      "Manual Técnico",
+      "Modelo de Datos",
+      "Plan de Liberación",
+      "Plan de Pruebas",
+      "Prototipo",
+      "Wireframe"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 13,
+    "expectedCPT": 0.076923077
+  },
+  {
+    "id": 156,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Backlog del Sprint",
+      "Bosquejo de Arquitectura",
+      "Caso de Negocio",
+      "Definición de Hecho",
+      "Especificación Funcional",
+      "Hoja de Ruta del Producto",
+      "Plan de Configuración",
+      "Registro de Riesgos",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Documento de Validación",
+      "Wireframe"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 11,
+    "expectedCPT": 0.181818182
+  },
+  {
+    "id": 157,
+    "agileWorkProducts": [
+      "Documento de Verificación",
+      "Matriz de Trazabilidad",
+      "Modelo de Procesos"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Bosquejo de Arquitectura",
+      "Caso de Negocio",
+      "Casos de Uso",
+      "Diagrama de Despliegue",
+      "Documento de Diseño",
+      "Documento de Requisitos",
+      "Maqueta de Interfaz",
+      "Plan de Calidad",
+      "Prototipo"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 13,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 158,
+    "agileWorkProducts": [
+      "Definición de Hecho",
+      "Definición de Preparado",
+      "Plan de Gestión de Riesgos",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Diagrama de Componentes",
+      "Documento de Validación",
+      "Especificación de Requisitos",
+      "Maqueta de Interfaz",
+      "Registro de Interesados",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 10,
+    "expectedCPT": 0.1
+  },
+  {
+    "id": 159,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Criterios de Aceptación",
+      "Definición de Hecho",
+      "Documento de Validación",
+      "Manual de Usuario",
+      "Maqueta de Interfaz",
+      "Matriz de Trazabilidad",
+      "Modelo de Procesos"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Casos de Uso",
+      "Criterios de Aceptación",
+      "Documento de Requisitos",
+      "Modelo de Procesos",
+      "Registro de Deuda Técnica",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 3,
+    "expectedUnion": 12,
+    "expectedCPT": 0.25
+  },
+  {
+    "id": 160,
+    "agileWorkProducts": [
+      "Caso de Negocio",
+      "Diagrama de Clases",
+      "Hoja de Ruta del Producto",
+      "Plan de Configuración"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Casos de Uso",
+      "Plan de Iteración",
+      "Wireframe"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 8,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 161,
+    "agileWorkProducts": [
+      "Diagrama de Secuencia",
+      "Documento de Requisitos",
+      "Especificación Funcional",
+      "Informe de Pruebas",
+      "Manual de Usuario",
+      "Matriz de Trazabilidad",
+      "Plan de Calidad",
+      "Plan de Configuración",
+      "Plan de Gestión de Riesgos",
+      "Plan de Liberación"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Criterios de Aceptación",
+      "Historias de Usuario",
+      "Plan de Iteración",
+      "Plan de Liberación",
+      "Prototipo",
+      "Registro de Defectos",
+      "Registro de Deuda Técnica"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 17,
+    "expectedCPT": 0.058823529
+  },
+  {
+    "id": 162,
+    "agileWorkProducts": [
+      "Documento de Validación",
+      "Modelo de Datos",
+      "Plan de Gestión de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Documento de Requisitos",
+      "Matriz de Trazabilidad",
+      "Modelo de Datos",
+      "Plan de Calidad",
+      "Plan de Pruebas"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 8,
+    "expectedCPT": 0.125
+  },
+  {
+    "id": 163,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Diagrama de Componentes",
+      "Documento de Arquitectura",
+      "Documento de Visión",
+      "Modelo de Datos",
+      "Modelo de Procesos",
+      "Registro de Deuda Técnica"
+    ],
+    "planDrivenWorkProducts": [
+      "Definición de Hecho",
+      "Diagrama de Componentes",
+      "Documento de Verificación",
+      "Informe de Estado",
+      "Informe de Pruebas",
+      "Matriz de Trazabilidad",
+      "Modelo de Procesos",
+      "Plan de Gestión de Riesgos"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 13,
+    "expectedCPT": 0.153846154
+  },
+  {
+    "id": 164,
+    "agileWorkProducts": [
+      "Casos de Uso",
+      "Diagrama de Secuencia",
+      "Informe de Estado",
+      "Lecciones Aprendidas",
+      "Manual Técnico",
+      "Manual de Usuario",
+      "Plan de Liberación",
+      "Registro de Defectos"
+    ],
+    "planDrivenWorkProducts": [
+      "Criterios de Aceptación",
+      "Documento de Diseño",
+      "Documento de Visión",
+      "Especificación de Requisitos",
+      "Informe de Estado",
+      "Informe de Pruebas",
+      "Lecciones Aprendidas",
+      "Maqueta de Interfaz",
+      "Plan de Iteración",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 16,
+    "expectedCPT": 0.125
+  },
+  {
+    "id": 165,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Bosquejo de Arquitectura",
+      "Cronograma del Proyecto",
+      "Diagrama de Componentes",
+      "Especificación Técnica",
+      "Historias de Usuario",
+      "Informe de Estado",
+      "Plan de Calidad",
+      "Registro de Defectos",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Uso",
+      "Criterios de Aceptación",
+      "Diagrama de Clases",
+      "Documento de Arquitectura",
+      "Documento de Verificación",
+      "Manual de Usuario",
+      "Plan de Calidad",
+      "Plan de Liberación",
+      "Plan de Pruebas"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 18,
+    "expectedCPT": 0.055555556
+  },
+  {
+    "id": 166,
+    "agileWorkProducts": [
+      "Cronograma del Proyecto",
+      "Diagrama de Clases",
+      "Documento de Diseño",
+      "Especificación Técnica",
+      "Hoja de Ruta del Producto",
+      "Manual de Usuario",
+      "Plan de Gestión de Riesgos",
+      "Plan de Iteración"
+    ],
+    "planDrivenWorkProducts": [
+      "Documento de Visión",
+      "Especificación Funcional",
+      "Manual de Usuario"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 10,
+    "expectedCPT": 0.1
+  },
+  {
+    "id": 167,
+    "agileWorkProducts": [
+      "Diagrama de Componentes",
+      "Documento de Validación",
+      "Documento de Verificación",
+      "Documento de Visión",
+      "Especificación Técnica",
+      "Historias de Usuario",
+      "Modelo de Datos",
+      "Plan de Liberación",
+      "Plan de Pruebas"
+    ],
+    "planDrivenWorkProducts": [
+      "Diagrama de Secuencia",
+      "Maqueta de Interfaz",
+      "Plan de Pruebas"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 11,
+    "expectedCPT": 0.090909091
+  },
+  {
+    "id": 168,
+    "agileWorkProducts": [
+      "Casos de Uso",
+      "Criterios de Aceptación",
+      "Diagrama de Clases",
+      "Plan de Liberación",
+      "Plan de Pruebas"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Caso de Negocio",
+      "Documento de Visión",
+      "Historias de Usuario"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 9,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 169,
+    "agileWorkProducts": [
+      "Casos de Prueba",
+      "Definición de Hecho",
+      "Diagrama de Despliegue",
+      "Documento de Arquitectura",
+      "Especificación de Requisitos",
+      "Informe de Pruebas",
+      "Manual de Usuario",
+      "Modelo de Datos",
+      "Registro de Cambios",
+      "Registro de Deuda Técnica"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Documento de Arquitectura",
+      "Modelo de Datos",
+      "Plan de Calidad",
+      "Plan de Gestión de Riesgos",
+      "Registro de Cambios"
+    ],
+    "expectedIntersection": 3,
+    "expectedUnion": 13,
+    "expectedCPT": 0.230769231
+  },
+  {
+    "id": 170,
+    "agileWorkProducts": [
+      "Casos de Uso",
+      "Definición de Preparado",
+      "Documento de Validación",
+      "Informe de Pruebas",
+      "Registro de Interesados",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Criterios de Aceptación",
+      "Documento de Visión",
+      "Plan del Proyecto",
+      "Wireframe"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 9,
+    "expectedCPT": 0.111111111
+  },
+  {
+    "id": 171,
+    "agileWorkProducts": [
+      "Caso de Negocio",
+      "Documento de Diseño",
+      "Maqueta de Interfaz",
+      "Modelo de Procesos",
+      "Registro de Cambios",
+      "Registro de Defectos",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Backlog del Sprint",
+      "Caso de Negocio",
+      "Informe de Estado",
+      "Informe de Pruebas",
+      "Wireframe"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 12,
+    "expectedCPT": 0.083333333
+  },
+  {
+    "id": 172,
+    "agileWorkProducts": [
+      "Cronograma del Proyecto",
+      "Definición de Preparado",
+      "Diagrama de Secuencia",
+      "Especificación de Requisitos",
+      "Lecciones Aprendidas",
+      "Plan de Calidad"
+    ],
+    "planDrivenWorkProducts": [
+      "Diagrama de Secuencia",
+      "Documento de Validación",
+      "Documento de Visión",
+      "Lecciones Aprendidas",
+      "Maqueta de Interfaz",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 10,
+    "expectedCPT": 0.2
+  },
+  {
+    "id": 173,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Definición de Hecho",
+      "Modelo de Datos",
+      "Plan de Gestión de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Sprint",
+      "Bosquejo de Arquitectura",
+      "Diagrama de Componentes",
+      "Documento de Visión",
+      "Especificación Funcional",
+      "Maqueta de Interfaz",
+      "Plan de Iteración",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 12,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 174,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Casos de Uso",
+      "Criterios de Aceptación",
+      "Diagrama de Secuencia",
+      "Documento de Verificación",
+      "Informe de Estado",
+      "Plan del Proyecto"
+    ],
+    "planDrivenWorkProducts": [
+      "Especificación Funcional",
+      "Lecciones Aprendidas",
+      "Plan de Calidad",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 11,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 175,
+    "agileWorkProducts": [
+      "Backlog del Producto",
+      "Definición de Preparado",
+      "Especificación Técnica",
+      "Historias de Usuario",
+      "Informe de Pruebas",
+      "Plan de Calidad",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Caso de Negocio",
+      "Especificación Funcional",
+      "Prototipo",
+      "Registro de Interesados",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 12,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 176,
+    "agileWorkProducts": [
+      "Criterios de Aceptación",
+      "Especificación de Requisitos",
+      "Informe de Estado",
+      "Plan de Iteración"
+    ],
+    "planDrivenWorkProducts": [
+      "Historias de Usuario",
+      "Registro de Cambios",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 7,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 177,
+    "agileWorkProducts": [
+      "Definición de Preparado",
+      "Diagrama de Secuencia",
+      "Documento de Arquitectura",
+      "Documento de Requisitos",
+      "Maqueta de Interfaz",
+      "Plan de Pruebas",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Cronograma del Proyecto",
+      "Hoja de Ruta del Producto",
+      "Manual de Usuario",
+      "Plan de Iteración",
+      "Registro de Cambios"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 12,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 178,
+    "agileWorkProducts": [
+      "Casos de Uso",
+      "Documento de Arquitectura",
+      "Especificación Técnica",
+      "Registro de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Definición de Hecho",
+      "Documento de Arquitectura",
+      "Hoja de Ruta del Producto",
+      "Lecciones Aprendidas",
+      "Manual de Usuario",
+      "Maqueta de Interfaz",
+      "Modelo de Datos",
+      "Plan de Liberación",
+      "Prototipo"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 12,
+    "expectedCPT": 0.083333333
+  },
+  {
+    "id": 179,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Caso de Negocio",
+      "Definición de Preparado",
+      "Especificación Funcional",
+      "Lecciones Aprendidas"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Caso de Negocio",
+      "Casos de Prueba",
+      "Definición de Preparado",
+      "Documento de Arquitectura",
+      "Documento de Requisitos",
+      "Hoja de Ruta del Producto",
+      "Lecciones Aprendidas",
+      "Registro de Deuda Técnica",
+      "Wireframe"
+    ],
+    "expectedIntersection": 3,
+    "expectedUnion": 12,
+    "expectedCPT": 0.25
+  },
+  {
+    "id": 180,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Casos de Prueba",
+      "Diagrama de Despliegue",
+      "Documento de Requisitos",
+      "Especificación Técnica",
+      "Informe de Estado",
+      "Manual de Usuario",
+      "Maqueta de Interfaz",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Especificación Técnica",
+      "Hoja de Ruta del Producto",
+      "Manual Técnico",
+      "Plan de Configuración",
+      "Plan de Iteración",
+      "Registro de Cambios",
+      "Registro de Defectos"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 15,
+    "expectedCPT": 0.133333333
+  },
+  {
+    "id": 181,
+    "agileWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Definición de Hecho",
+      "Diagrama de Clases",
+      "Diagrama de Secuencia",
+      "Documento de Validación",
+      "Modelo de Procesos",
+      "Plan de Configuración",
+      "Plan de Gestión de Riesgos",
+      "Plan del Proyecto"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Uso",
+      "Definición de Hecho",
+      "Hoja de Ruta del Producto",
+      "Informe de Pruebas",
+      "Prototipo",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 14,
+    "expectedCPT": 0.071428571
+  },
+  {
+    "id": 182,
+    "agileWorkProducts": [
+      "Casos de Uso",
+      "Matriz de Trazabilidad",
+      "Plan del Proyecto",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Caso de Negocio",
+      "Casos de Prueba",
+      "Documento de Requisitos",
+      "Documento de Validación",
+      "Documento de Verificación",
+      "Especificación Técnica",
+      "Informe de Pruebas",
+      "Registro de Cambios",
+      "Registro de Defectos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 13,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 183,
+    "agileWorkProducts": [
+      "Backlog del Producto",
+      "Cronograma del Proyecto",
+      "Diagrama de Despliegue",
+      "Documento de Arquitectura",
+      "Informe de Estado",
+      "Manual Técnico",
+      "Plan de Configuración",
+      "Registro de Interesados",
+      "Registro de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Informe de Pruebas",
+      "Modelo de Procesos",
+      "Plan de Liberación"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 12,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 184,
+    "agileWorkProducts": [
+      "Casos de Prueba",
+      "Diagrama de Secuencia",
+      "Documento de Requisitos",
+      "Modelo de Procesos",
+      "Registro de Deuda Técnica"
+    ],
+    "planDrivenWorkProducts": [
+      "Diagrama de Clases",
+      "Diagrama de Componentes",
+      "Diagrama de Secuencia",
+      "Especificación Técnica",
+      "Informe de Estado",
+      "Plan de Pruebas",
+      "Prototipo"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 11,
+    "expectedCPT": 0.090909091
+  },
+  {
+    "id": 185,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Cronograma del Proyecto",
+      "Documento de Diseño",
+      "Documento de Verificación",
+      "Especificación Técnica",
+      "Especificación de Requisitos",
+      "Plan de Pruebas",
+      "Registro de Interesados",
+      "Registro de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Diagrama de Componentes",
+      "Diagrama de Despliegue",
+      "Especificación Técnica",
+      "Modelo de Datos",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 13,
+    "expectedCPT": 0.153846154
+  },
+  {
+    "id": 186,
+    "agileWorkProducts": [
+      "Cronograma del Proyecto",
+      "Documento de Diseño",
+      "Documento de Visión",
+      "Manual de Usuario"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Casos de Uso",
+      "Definición de Hecho",
+      "Definición de Preparado",
+      "Diagrama de Clases",
+      "Documento de Arquitectura",
+      "Informe de Estado",
+      "Plan de Configuración"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 12,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 187,
+    "agileWorkProducts": [
+      "Casos de Uso",
+      "Diagrama de Componentes",
+      "Documento de Visión",
+      "Plan de Liberación",
+      "Registro de Interesados",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Prueba",
+      "Casos de Uso",
+      "Diagrama de Componentes",
+      "Documento de Requisitos",
+      "Especificación Técnica",
+      "Manual de Usuario",
+      "Modelo de Datos",
+      "Plan de Calidad",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 3,
+    "expectedUnion": 12,
+    "expectedCPT": 0.25
+  },
+  {
+    "id": 188,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Plan de Iteración",
+      "Solicitud de Cambio"
+    ],
+    "planDrivenWorkProducts": [
+      "Manual de Usuario",
+      "Plan de Configuración",
+      "Plan de Liberación",
+      "Solicitud de Cambio"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 6,
+    "expectedCPT": 0.166666667
+  },
+  {
+    "id": 189,
+    "agileWorkProducts": [
+      "Diagrama de Clases",
+      "Diagrama de Despliegue",
+      "Diagrama de Secuencia",
+      "Informe de Pruebas",
+      "Manual de Usuario",
+      "Plan de Pruebas",
+      "Registro de Deuda Técnica"
+    ],
+    "planDrivenWorkProducts": [
+      "Casos de Prueba",
+      "Casos de Uso",
+      "Documento de Diseño",
+      "Informe de Estado",
+      "Plan de Configuración",
+      "Registro de Defectos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 13,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 190,
+    "agileWorkProducts": [
+      "Cronograma del Proyecto",
+      "Documento de Diseño",
+      "Lecciones Aprendidas"
+    ],
+    "planDrivenWorkProducts": [
+      "Caso de Negocio",
+      "Diagrama de Componentes",
+      "Documento de Requisitos",
+      "Registro de Cambios"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 7,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 191,
+    "agileWorkProducts": [
+      "Casos de Prueba",
+      "Diagrama de Clases",
+      "Documento de Verificación",
+      "Documento de Visión",
+      "Especificación Funcional"
+    ],
+    "planDrivenWorkProducts": [
+      "Caso de Negocio",
+      "Definición de Preparado",
+      "Diagrama de Clases",
+      "Modelo de Datos",
+      "Plan de Liberación"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 9,
+    "expectedCPT": 0.111111111
+  },
+  {
+    "id": 192,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Criterios de Aceptación",
+      "Definición de Hecho",
+      "Diagrama de Secuencia",
+      "Documento de Validación",
+      "Especificación Técnica",
+      "Registro de Deuda Técnica",
+      "Registro de Riesgos",
+      "Solicitud de Cambio",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Criterios de Aceptación",
+      "Definición de Hecho",
+      "Modelo de Datos",
+      "Plan de Iteración",
+      "Plan del Proyecto"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 13,
+    "expectedCPT": 0.153846154
+  },
+  {
+    "id": 193,
+    "agileWorkProducts": [
+      "Caso de Negocio",
+      "Cronograma del Proyecto",
+      "Maqueta de Interfaz",
+      "Plan de Gestión de Riesgos"
+    ],
+    "planDrivenWorkProducts": [
+      "Definición de Hecho",
+      "Documento de Requisitos",
+      "Especificación de Requisitos",
+      "Historias de Usuario",
+      "Plan de Gestión de Riesgos",
+      "Prototipo"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 9,
+    "expectedCPT": 0.111111111
+  },
+  {
+    "id": 194,
+    "agileWorkProducts": [
+      "Documento de Verificación",
+      "Manual de Usuario",
+      "Matriz de Trazabilidad",
+      "Plan de Iteración",
+      "Prototipo",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Caso de Negocio",
+      "Criterios de Aceptación",
+      "Especificación de Requisitos",
+      "Historias de Usuario",
+      "Modelo de Procesos",
+      "Prototipo",
+      "Registro de Interesados"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 13,
+    "expectedCPT": 0.076923077
+  },
+  {
+    "id": 195,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Backlog del Producto",
+      "Manual de Usuario"
+    ],
+    "planDrivenWorkProducts": [
+      "Lecciones Aprendidas",
+      "Plan de Gestión de Riesgos",
+      "Prototipo"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 6,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 196,
+    "agileWorkProducts": [
+      "Documento de Diseño",
+      "Documento de Requisitos",
+      "Lecciones Aprendidas",
+      "Modelo de Datos",
+      "Plan de Liberación",
+      "Registro de Deuda Técnica",
+      "Wireframe"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Caso de Negocio",
+      "Diagrama de Despliegue",
+      "Documento de Arquitectura",
+      "Informe de Pruebas",
+      "Plan del Proyecto",
+      "Registro de Deuda Técnica",
+      "Registro de Riesgos",
+      "Wireframe"
+    ],
+    "expectedIntersection": 2,
+    "expectedUnion": 14,
+    "expectedCPT": 0.142857143
+  },
+  {
+    "id": 197,
+    "agileWorkProducts": [
+      "Diagrama de Clases",
+      "Documento de Requisitos",
+      "Informe de Estado",
+      "Maqueta de Interfaz",
+      "Plan de Configuración"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Backlog del Sprint",
+      "Caso de Negocio",
+      "Especificación Técnica",
+      "Informe de Pruebas",
+      "Plan de Liberación",
+      "Registro de Deuda Técnica",
+      "Registro de Riesgos"
+    ],
+    "expectedIntersection": 0,
+    "expectedUnion": 13,
+    "expectedCPT": 0.0
+  },
+  {
+    "id": 198,
+    "agileWorkProducts": [
+      "Backlog del Sprint",
+      "Cronograma del Proyecto",
+      "Diagrama de Secuencia",
+      "Documento de Arquitectura",
+      "Especificación Técnica",
+      "Historias de Usuario",
+      "Manual de Usuario",
+      "Maqueta de Interfaz",
+      "Prototipo",
+      "Registro de Interesados"
+    ],
+    "planDrivenWorkProducts": [
+      "Backlog del Producto",
+      "Definición de Preparado",
+      "Historias de Usuario",
+      "Informe de Pruebas"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 13,
+    "expectedCPT": 0.076923077
+  },
+  {
+    "id": 199,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Backlog del Sprint",
+      "Cronograma del Proyecto",
+      "Definición de Hecho",
+      "Documento de Verificación",
+      "Especificación Funcional",
+      "Especificación de Requisitos",
+      "Plan de Pruebas",
+      "Prototipo",
+      "Registro de Defectos"
+    ],
+    "planDrivenWorkProducts": [
+      "Bosquejo de Arquitectura",
+      "Casos de Uso",
+      "Definición de Preparado",
+      "Documento de Validación",
+      "Hoja de Ruta del Producto",
+      "Maqueta de Interfaz",
+      "Matriz de Trazabilidad",
+      "Modelo de Procesos",
+      "Prototipo"
+    ],
+    "expectedIntersection": 1,
+    "expectedUnion": 18,
+    "expectedCPT": 0.055555556
+  },
+  {
+    "id": 200,
+    "agileWorkProducts": [
+      "Acta de Reunión",
+      "Backlog del Sprint",
+      "Casos de Uso",
+      "Diagrama de Despliegue",
+      "Documento de Diseño",
+      "Documento de Requisitos",
+      "Documento de Visión",
+      "Maqueta de Interfaz",
+      "Modelo de Datos"
+    ],
+    "planDrivenWorkProducts": [
+      "Acta de Reunión",
+      "Bosquejo de Arquitectura",
+      "Caso de Negocio",
+      "Casos de Uso",
+      "Documento de Arquitectura",
+      "Documento de Requisitos",
+      "Hoja de Ruta del Producto",
+      "Manual de Usuario",
+      "Plan de Gestión de Riesgos",
+      "Registro de Cambios"
+    ],
+    "expectedIntersection": 3,
+    "expectedUnion": 16,
+    "expectedCPT": 0.1875
+  }
+]

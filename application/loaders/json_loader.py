@@ -33,20 +33,28 @@ class ProcessModelLoader:
 
         practices = []
 
-        #Cargar prácticas
+        # -----------------------------
+        # Cargar prácticas
+        # -----------------------------
         for p in data.get("practices", []):
 
             roles = [
-                Role(id=r["id"], name=r["name"])
+                Role(
+                    id=r["id"],
+                    name=r.get("name", r["id"])
+                )
                 for r in p.get("roles", [])
             ]
 
             activities = [
                 Activity(
                     id=a["id"],
-                    name=a["name"],
-                    type=a["type"],
-                    must_precede=a.get("mustPrecede", [])
+                    name=a.get("name", a["id"]),
+                    type=a.get("type", "agile"),
+                    must_precede=a.get(
+                        "mustPrecede",
+                        []
+                    )
                 )
                 for a in p.get("activities", [])
             ]
@@ -54,44 +62,94 @@ class ProcessModelLoader:
             artifacts = [
                 Artifact(
                     id=ar["id"],
-                    name=ar["name"],
-                    category=ar["category"]
+                    name=ar.get("name", ar["id"]),
+                    category=ar.get(
+                        "category",
+                        "Document"
+                    )
                 )
                 for ar in p.get("artifacts", [])
             ]
 
             practice = Practice(
                 id=p["id"],
-                name=p["name"],
-                type=EnumType(p["type"].lower()),
+                name=p.get(
+                    "name",
+                    p["id"]
+                ),
+                type=EnumType(
+                    p.get(
+                        "type",
+                        "agile"
+                    ).lower()
+                ),
                 roles=roles,
                 activities=activities,
                 artifacts=artifacts,
-                rules=p.get("rules", []),
-                required_rules=p.get("requiredRules", []),
-                context_requirements=p.get("contextRequirements", [])
+                rules=p.get(
+                    "rules",
+                    []
+                ),
+                required_rules=p.get(
+                    "requiredRules",
+                    []
+                ),
+                context_requirements=p.get(
+                    "contextRequirements",
+                    []
+                )
             )
 
             practices.append(practice)
 
-        #Crear mapa de prácticas (para relaciones)
-        practice_map = {p.id: p for p in practices}
+        # -----------------------------
+        # Crear mapa de prácticas
+        # -----------------------------
+        practice_map = {
+            p.id: p
+            for p in practices
+        }
 
-        #Cargar relaciones de compatibilidad
+        # -----------------------------
+        # Relaciones de compatibilidad
+        # -----------------------------
         relations = []
-        for r in data.get("compatibilityRelations", []):
-            relations.append(
-                CompatibilityRelation(
-                    r["type"],
-                    practice_map[r["practiceA"]],
-                    practice_map[r["practiceB"]]
-                )
-            )
 
-        #Construir modelo final
+        for r in data.get(
+            "compatibilityRelations",
+            []
+        ):
+
+            if (
+                r["practiceA"] in practice_map
+                and
+                r["practiceB"] in practice_map
+            ):
+
+                relations.append(
+                    CompatibilityRelation(
+                        r["type"],
+                        practice_map[
+                            r["practiceA"]
+                        ],
+                        practice_map[
+                            r["practiceB"]
+                        ]
+                    )
+                )
+
+        # -----------------------------
+        # Construir modelo final
+        # -----------------------------
         return HybridProcessModel(
-            id=data["id"],
+            id=data.get(
+                "id",
+                "UNKNOWN"
+            ),
             practices=practices,
-            project_context=data.get("projectContext", []),
+            project_context=data.get(
+                "projectContext",
+                []
+            ),
             compatibility_relations=relations
         )

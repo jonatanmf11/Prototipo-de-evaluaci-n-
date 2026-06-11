@@ -1,73 +1,139 @@
-import json
-from application.loaders.json_loader import ProcessModelLoader
-from application.rules.rule_engine import RuleEngine
-from application.rules.functional.no_redundant_artifacts_rule import (
-    FunctionalNoRedundantArtifactsRule
+from application.DataEvaluacionReglas.no_redundant_artifacts_rule.NoRedundantArtifactsEvaluator import NoRedundantArtifactsEvaluator
+from application.DataEvaluacionReglas.no_role_conflict_rule.noRoleConflictEvaluator import NoRoleConflictEvaluator
+from application.DataEvaluacionReglas.has_required_rules.has_required_rulesEvaluator import hasRequiredRulesEvaluator
+from application.DataEvaluacionReglas.context_alignment.context_alignment import contextalignmentEvaluator
+from application.DataEvaluacionReglas.no_contradictory_dependencies.no_contradictory_dependenciesEvaluator import (
+    NoContradictoryDependenciesEvaluator
 )
-import csv
-from sklearn.metrics import precision_score, recall_score, f1_score
-
 def main():
-    path = "application/DataEvaluacionReglas/no_redundant_artifacts_rule/modelosPruebas.json"
-    ruta_entrada = "application/DataEvaluacionReglas/no_redundant_artifacts_rule/noredundantrulesCalculados.csv"
-    ruta_salida = "application/DataEvaluacionReglas/no_redundant_artifacts_rule/noredundantrulesResultados.csv"
-    calculados = [] 
+     
+     #evaluar No_redundant_artifacts
+     
+    json_NRA = (
+        "application/DataEvaluacionReglas/"
+        "no_redundant_artifacts_rule/"
+        "modelosPruebas.json"
+    )
+
+    csv_NRA = (
+        "application/DataEvaluacionReglas/"
+        "no_redundant_artifacts_rule/"
+        "noredundantrulesCalculados.csv"
+    )
+
+    output_NRA = (
+        "application/DataEvaluacionReglas/"
+        "no_redundant_artifacts_rule/"
+        "resultadosEvaluacion.csv"
+    )
+
+    evaluatorNRA = NoRedundantArtifactsEvaluator(
+        json_NRA,
+        csv_NRA,
+        output_NRA
+    )
+
+    evaluatorNRA.run()
     
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
+    #Evaluar no role conflict
     
-    if isinstance(data, dict):
-        if "models" in data:
-            models = data["models"]
-        else:
-            
-            models = [data]
-    elif isinstance(data, list):
-        models = data
-    else:
-        raise ValueError("Formato de JSON no soportado")
+    json_NRC = (
+        "application/DataEvaluacionReglas/no_role_conflict_rule/"
+        "NRC.json"
+    )
 
-    engine = RuleEngine()
-    engine.register_rule(FunctionalNoRedundantArtifactsRule())
+    csv_NRC = (
+        "application/DataEvaluacionReglas/no_role_conflict_rule/"
+        "NRC.csv"
+    )
 
-    total_violations = 0
+    output_NRC = (
+        "application/DataEvaluacionReglas/"
+        "no_redundant_artifacts_rule/"
+        "resultadosEvaluacionNRC.csv"
+    )
 
-    for model_data in models:
-        #print("=" * 50)
-        #print(f"Evaluando modelo: {model_data['id']} - {model_data['name']}")
+    evaluatorNRC = NoRoleConflictEvaluator(
+        json_NRC,
+        csv_NRC,
+        output_NRC
+    )
+    
 
-        process = ProcessModelLoader.load_from_dict(model_data)
+    evaluatorNRC.run()
+    
+    
+    #Evaluar has required rules
+    
+    
+    json_HRR = (
+        "application/DataEvaluacionReglas/has_required_rules/HRR.json"
+    )
 
-        violations = engine.evaluate(process)
-        resultado = 1 if len(violations) > 0 else 0
-        calculados.append(resultado)
+    csv_HRR = (
+        "application/DataEvaluacionReglas/has_required_rules/HRRCalculados.csv"
+    )
 
+    output_HRR = (
+        "application/DataEvaluacionReglas/has_required_rules/HRRResultadoss.csv"
+    )
 
-    print("\n RESULTADOS DE LA EVALUACION:")
-    print(calculados)
+    evaluator_HRR = hasRequiredRulesEvaluator(
+        json_HRR,
+        csv_HRR,
+        output_HRR
+    )
+    
 
+    evaluator_HRR.run()
 
+#Evaluar context alignment
+    
+    
+    json_CA = (
+        "application/DataEvaluacionReglas/context_alignment/CA.json"
+    )
 
+    csv_CA = (
+        "application/DataEvaluacionReglas/context_alignment/CACalculados.csv"
+    )
 
+    output_CA = (
+        "application/DataEvaluacionReglas/context_alignment/CAResultados.csv"
+    )
 
-    violaciones_entrada= []
+    evaluator_CA = contextalignmentEvaluator(
+        json_CA,
+        csv_CA,
+        output_CA
+    )
+    
 
-    with open(ruta_entrada, newline="", encoding="utf-8") as f:
-        reader = csv.DictReader(f, delimiter=";")
-        
-        for row in reader:
-            violaciones_entrada.append(int(row["Violaciones detectadas"]))
+    evaluator_CA.run()
+    
+    #Evaluar no contradictory dependencies 
+  
+    json_NCD = (
+        "application/DataEvaluacionReglas/no_contradictory_dependencies/NCD.json"
+    )
 
-    print(violaciones_entrada)
+    csv_NCD = (
+        "application/DataEvaluacionReglas/no_contradictory_dependencies/NCDCalculado.csv"
+    )
 
+    output_NCD = (
+        "application/DataEvaluacionReglas/no_contradictory_dependencies/NCDResultados.csv"
+    )
 
-    precision = precision_score(violaciones_entrada, calculados)
-    recall = recall_score(violaciones_entrada, calculados)
-    f1 = f1_score(violaciones_entrada, calculados)
+    evaluator_NCD = NoContradictoryDependenciesEvaluator(
+        json_NCD,
+        csv_NCD,
+        output_NCD
+    )
+    
 
-    print("Precision:", precision)
-    print("Recall:", recall)
-    print("F1-score:", f1)
+    evaluator_NCD.run()
+    
+    
 if __name__ == "__main__":
     main()

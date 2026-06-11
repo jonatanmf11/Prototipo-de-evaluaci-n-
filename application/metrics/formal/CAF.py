@@ -1,5 +1,6 @@
 from application.metrics.base_metric import BaseMetric
 
+
 class CAF(BaseMetric):
 
     def __init__(self, documentation_data: dict):
@@ -20,55 +21,102 @@ class CAF(BaseMetric):
             "metrics": 0.05
         }
 
-    def calculate(self, model, violations=None):
+    def calculate(self, model=None, violations=None):
 
         # -----------------------------
-        # Totales desde el modelo
+        # Totales desde el JSON
         # -----------------------------
 
-        total_activities = sum(len(p.activities) for p in model.practices)
-        total_rules = len(model.practices)
-        total_roles = sum(len(p.roles) for p in model.practices)
-        total_artifacts = sum(len(p.artifacts) for p in model.practices)
-        total_sequence = len(model.compatibility_relations)
-        total_metrics = 1  # asumimos al menos el sistema métrico existe
+        total_activities = len(
+            self.documentation_data.get(
+                "activities", []
+            )
+        )
+
+        total_rules = len(
+            self.documentation_data.get(
+                "rules", []
+            )
+        )
+
+        total_roles = len(
+            self.documentation_data.get(
+                "roles", []
+            )
+        )
+
+        total_artifacts = len(
+            self.documentation_data.get(
+                "artifacts", []
+            )
+        )
+
+        total_sequence = len(
+            self.documentation_data.get(
+                "sequence", []
+            )
+        )
+
+        total_metrics = len(
+            self.documentation_data.get(
+                "metrics", []
+            )
+        )
 
         # -----------------------------
-        # Documentados desde JSON externo
+        # Documentados
         # -----------------------------
 
-        documented_activities = len([
-            a for a in self.documentation_data.get("activities", [])
+        documented_activities = sum(
+            1
+            for a in self.documentation_data.get(
+                "activities", []
+            )
             if a.get("documented", False)
-        ])
+        )
 
-        documented_rules = len([
-            r for r in self.documentation_data.get("rules", [])
+        documented_rules = sum(
+            1
+            for r in self.documentation_data.get(
+                "rules", []
+            )
             if r.get("documented", False)
-        ])
+        )
 
-        documented_roles = len([
-            r for r in self.documentation_data.get("roles", [])
+        documented_roles = sum(
+            1
+            for r in self.documentation_data.get(
+                "roles", []
+            )
             if r.get("documented", False)
-        ])
+        )
 
-        documented_artifacts = len([
-            a for a in self.documentation_data.get("artifacts", [])
+        documented_artifacts = sum(
+            1
+            for a in self.documentation_data.get(
+                "artifacts", []
+            )
             if a.get("documented", False)
-        ])
+        )
 
-        documented_sequence = len([
-            s for s in self.documentation_data.get("sequence", [])
+        documented_sequence = sum(
+            1
+            for s in self.documentation_data.get(
+                "sequence", []
+            )
             if s.get("documented", False)
-        ])
+        )
 
-        documented_metrics = len([
-            m for m in self.documentation_data.get("metrics", [])
+        documented_metrics = sum(
+            1
+            for m in self.documentation_data.get(
+                "metrics", []
+            )
             if m.get("documented", False)
-        ])
+        )
 
         # -----------------------------
-        # Cálculo normalizado por categoría
+        # Normalización
         # -----------------------------
 
         scores = {}
@@ -117,8 +165,25 @@ class CAF(BaseMetric):
     def interpret(self, value: float) -> str:
 
         if value > 80:
-            return "Alta cobertura formal, proceso maduro y replicable"
+            return (
+                "Alta cobertura formal, "
+                "proceso maduro y replicable"
+            )
+
         elif value >= 60:
-            return "Cobertura moderada, existen áreas de mejora"
+            return (
+                "Cobertura moderada, "
+                "existen áreas de mejora"
+            )
+
         else:
-            return "Baja formalización, alto riesgo de dependencia informal"
+            return (
+                "Baja formalización, "
+                "alto riesgo de dependencia informal"
+            )
+
+    def __repr__(self):
+        return (
+            f"{self.__class__.__name__}"
+            f"(name='{self.name}')"
+        )

@@ -1,0 +1,278 @@
+[
+  {
+    "id": "M01",
+    "name": "Cumple 1",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "rules": ["R1"],
+        "requiredRules": ["R1"]
+      }
+    ]
+  },
+  {
+    "id": "M02",
+    "name": "Viola 1",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "rules": [],
+        "requiredRules": ["R1"]
+      }
+    ]
+  },
+  {
+    "id": "M03",
+    "name": "Cumple 2",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "rules": ["R1", "R2"],
+        "requiredRules": ["R1"]
+      }
+    ]
+  },
+  {
+    "id": "M04",
+    "name": "Viola 2",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "rules": ["R1"],
+        "requiredRules": ["R1", "R2"]
+      }
+    ]
+  },
+  {
+    "id": "M05",
+    "name": "Cumple 3",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "rules": ["R1", "R2", "R3"],
+        "requiredRules": ["R1", "R2"]
+      }
+    ]
+  },
+  {
+    "id": "M06",
+    "name": "Viola 3",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "rules": ["R1"],
+        "requiredRules": ["R1", "R2", "R3"]
+      }
+    ]
+  },
+  {
+    "id": "M07",
+    "name": "Cumple 4",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "rules": [],
+        "requiredRules": []
+      }
+    ]
+  },
+  {
+    "id": "M08",
+    "name": "Viola 4",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "rules": [],
+        "requiredRules": ["R1", "R2"]
+      }
+    ]
+  },
+  {
+    "id": "M09",
+    "name": "Cumple 5",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "rules": ["R1"],
+        "requiredRules": ["R1"]
+      },
+      {
+        "id": "P02",
+        "type": "agile",
+        "rules": ["R2"],
+        "requiredRules": ["R2"]
+      }
+    ]
+  },
+  {
+    "id": "M10",
+    "name": "Viola 5",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "rules": ["R1"],
+        "requiredRules": ["R1"]
+      },
+      {
+        "id": "P02",
+        "type": "agile",
+        "rules": [],
+        "requiredRules": ["R2"]
+      }
+    ]
+  },
+  {
+    "id": "M11",
+    "name": "Cumple 6",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "rules": ["R1", "R2"],
+        "requiredRules": ["R1", "R2"]
+      }
+    ]
+  },
+  {
+    "id": "M12",
+    "name": "Viola 6",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "rules": ["R1"],
+        "requiredRules": ["R1", "R2"]
+      },
+      {
+        "id": "P02",
+        "type": "traditional",
+        "rules": ["R3"],
+        "requiredRules": ["R3"]
+      }
+    ]
+  },
+  {
+    "id": "M13",
+    "name": "Cumple 7",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "rules": ["R1", "R2", "R3"],
+        "requiredRules": ["R1", "R2", "R3"]
+      }
+    ]
+  },
+  {
+    "id": "M14",
+    "name": "Viola 7",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "rules": ["R1", "R2"],
+        "requiredRules": ["R1", "R2", "R3"]
+      }
+    ]
+  },
+  {
+    "id": "M15",
+    "name": "Cumple 8",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "rules": ["R1", "R2", "R3", "R4"],
+        "requiredRules": ["R1", "R2"]
+      }
+    ]
+  },
+  {
+    "id": "M16",
+    "name": "Viola 8",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "rules": [],
+        "requiredRules": ["R1"]
+      },
+      {
+        "id": "P02",
+        "type": "agile",
+        "rules": [],
+        "requiredRules": ["R2"]
+      }
+    ]
+  },
+  {
+    "id": "M17",
+    "name": "Cumple 9",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "rules": ["R1"],
+        "requiredRules": []
+      }
+    ]
+  },
+  {
+    "id": "M18",
+    "name": "Viola 9",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "traditional",
+        "rules": ["R1"],
+        "requiredRules": ["R1", "R2", "R3"]
+      }
+    ]
+  },
+  {
+    "id": "M19",
+    "name": "Cumple 10",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "rules": ["R1", "R2"],
+        "requiredRules": ["R1"]
+      },
+      {
+        "id": "P02",
+        "type": "traditional",
+        "rules": ["R3"],
+        "requiredRules": ["R3"]
+      }
+    ]
+  },
+  {
+    "id": "M20",
+    "name": "Viola 10",
+    "practices": [
+      {
+        "id": "P01",
+        "type": "agile",
+        "rules": ["R1"],
+        "requiredRules": ["R1"]
+      },
+      {
+        "id": "P02",
+        "type": "traditional",
+        "rules": [],
+        "requiredRules": ["R2", "R3"]
+      }
+    ]
+  }
+]
